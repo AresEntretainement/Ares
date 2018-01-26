@@ -1,0 +1,1 @@
+aDictionnaryClasses = ['Ares','Database','Date','Debug','Error','Graphic','IG_Ares','Hash','Language','Module','Pager','File','Session','Template','Training','Robot','Coup','Esquive']

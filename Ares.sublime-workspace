@@ -1,0 +1,1737 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Threa",
+				"Threads"
+			],
+			[
+				"asy",
+				"asyncio〔module〕"
+			],
+			[
+				"get",
+				"get_event_loop"
+			],
+			[
+				"a",
+				"aParams"
+			],
+			[
+				"run",
+				"run_until_complete"
+			],
+			[
+				"Re",
+				"Requests"
+			],
+			[
+				"as",
+				"asyncio"
+			],
+			[
+				"Ultrason",
+				"UltrasonGaucheTorse"
+			],
+			[
+				"cleint_",
+				"client_name"
+			],
+			[
+				"FRI",
+				"FRITES_COUNTER"
+			],
+			[
+				"sta",
+				"start_time"
+			],
+			[
+				"get_",
+				"get_frites"
+			],
+			[
+				"cl",
+				"client"
+			],
+			[
+				"async",
+				"asyncio〔module〕"
+			],
+			[
+				"da",
+				"datetime〔class〕"
+			],
+			[
+				"is",
+				"is_cancelled"
+			],
+			[
+				"STATU",
+				"STATUS_CANCELLED〔variable〕"
+			],
+			[
+				"STA",
+				"STATUS_CANCELLED"
+			],
+			[
+				"po",
+				"popleft〔function〕"
+			],
+			[
+				"de",
+				"deque〔class〕"
+			],
+			[
+				"STATUS",
+				"STATUS_ERROR〔variable〕"
+			],
+			[
+				"ST",
+				"STATUS_FINISHED〔variable〕"
+			],
+			[
+				"GP",
+				"GPIO.BCM"
+			],
+			[
+				"Dci",
+				"Dictionary"
+			],
+			[
+				"Robo",
+				"RobotModules〔variable〕"
+			],
+			[
+				"Installed",
+				"InstalledModules"
+			],
+			[
+				"Roo",
+				"RobotModules"
+			],
+			[
+				"rob",
+				"RobotModules〔variable〕"
+			],
+			[
+				"Robot",
+				"RobotModules"
+			],
+			[
+				"R",
+				"RobotModules〔variable〕"
+			],
+			[
+				"Cont",
+				"ControllerRobot"
+			],
+			[
+				"Cla",
+				"ClassMod"
+			],
+			[
+				"retor",
+				"retourPhrase"
+			],
+			[
+				"reto",
+				"retourPhrase"
+			],
+			[
+				"D",
+				"Dictionnary"
+			],
+			[
+				"__",
+				"__import__"
+			],
+			[
+				"la",
+				"sLangUsed〔variable〕"
+			],
+			[
+				"PA",
+				"PARAM_LANG_DEFAULT"
+			],
+			[
+				"s",
+				"sLangUsed〔variable〕"
+			],
+			[
+				"La",
+				"sLangUsed〔variable〕"
+			],
+			[
+				"self",
+				"self"
+			],
+			[
+				"lang",
+				"langFiles"
+			],
+			[
+				"P",
+				"PARAM_LANG_DEFAULT"
+			],
+			[
+				"print",
+				"print〔keyword〕"
+			],
+			[
+				"random",
+				"randomInt〔variable〕"
+			],
+			[
+				"sS",
+				"sStoredValue〔argument〕"
+			],
+			[
+				"sPa",
+				"sPassword〔variable〕"
+			],
+			[
+				"lan",
+				"langFiles〔variable〕"
+			],
+			[
+				"co",
+				"codage〔variable〕"
+			],
+			[
+				"set",
+				"setCodecVersion"
+			],
+			[
+				"sP",
+				"sPassword〔variable〕"
+			],
+			[
+				"sha",
+				"sha1〔function〕"
+			],
+			[
+				"sE",
+				"sErrorMsg"
+			],
+			[
+				"C",
+				"CONST_ARES_LANG"
+			],
+			[
+				"CONST_ARES",
+				"CONST_ARES_SEPARATOR〔variable〕"
+			],
+			[
+				"sEr",
+				"sErrorMsg"
+			],
+			[
+				"sErr",
+				"sErrorType"
+			],
+			[
+				"d",
+				"dErrorDictionary"
+			],
+			[
+				"Error",
+				"ErrorDictionary"
+			],
+			[
+				"E",
+				"Exception〔class〕"
+			],
+			[
+				"CONST_",
+				"CONST_ARES_LOG〔variable〕"
+			],
+			[
+				"CONST",
+				"CONST_ARES_SEPARATOR〔variable〕"
+			],
+			[
+				"ser",
+				"serialize"
+			],
+			[
+				"seari",
+				"serialize〔function〕"
+			],
+			[
+				"sStoredV",
+				"sStoredValue"
+			],
+			[
+				"sStor",
+				"sStoredValeur"
+			],
+			[
+				"rando",
+				"randomInt〔variable〕"
+			],
+			[
+				"consta",
+				"constants"
+			],
+			[
+				"cons",
+				"constants"
+			],
+			[
+				"CONST_ARES_",
+				"CONST_ARES_PATH"
+			],
+			[
+				"CONS",
+				"CONST_ARES_SEPARATOR"
+			],
+			[
+				"CO",
+				"CONST_ARES_PATH〔variable〕"
+			],
+			[
+				"seria",
+				"serial_grades"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "\"\"\"\nController Robot Test Example\n Dans cette fonction on retrouve la complete manipulation de la classe Robot\n par les differents types de besoin pour le programme\n Liste de besoins:\n -Exercice Entrainement With Strike : ExerciceWithStrike\n -Robot Training with SparBar : RobotTrainSparbar\n -Robot training normal : RobotTrain\n -Main Menu IU Utilisateur: Main\n Ces besoins seront lances en paralleles et diriges par ce controlleur pour modeliser les differentes actions:\n\n\n\"\"\"\n#Constantes Parametriques\nCONST_FILE_ROBOT = \"Robot.aee\"\n\n#Implementation des Modules et Librairies\nimport re\nimport asyncio\nfrom threading import Thread\n\n#Implementation du des differents composants\nfrom classRobot import *\nimport classBD as BD\nimport classMoyenne as Moyenne\nimport classTimer as Timer\nimport classExercice as Exercice\nimport classCoup as Coup\n\n\n\n\"\"\"INTRUSIVE ZONE\"\"\"\n\n\n\"\"\"\"\"\"\n\n\nclass ControllerRobot:\n    #Ports du robot qui seront transmis a la classe robot\n    Robot = {}\n    #Modules Installes du Robot\n    RobotModules = {}\n\n    InstalledModules = {'Ultrasonic','MotorDC'}\n\n\n    def __init__(self, sControllerType,aParams = []):\n        self.RobotModules = self.obtainRobotCaractersModules(CONST_FILE_ROBOT)\n        self.Robot = self.recognizeTypes()\n\n        if (sControllerType == \"ExerciceWithStrike\"):\n            self.controllerExerciceWithStrike(aParams)\n        elif (sControllerType == \"RobotTrainSparbar\"):\n            self.controllerRobotTrainSparbar(aParams)\n        elif (sControllerType == \"RobotTrain\"):\n            self.controllerRobotTrain(aParams)\n        elif (sControllerType == \"Main\"):\n            self.controllerMain(aParams)\n        else:\n            #Remplace par module Error Not Train\n            print(\"Error\")\n        return\n\n    def recognizeTypes(self):\n        Temporal = {}\n        if(self.InstalledModules == {}):\n            #Remplacer par module Error Not Installed\n            print('Is not installed')\n            return\n        for element in self.RobotModules.keys():\n            if(self.RobotModules[element]['Type']):\n                if(self.getConfMod(element,'Type') in self.InstalledModules):\n                    Temporal[element] = eval(self.getConfMod(element,'Type')+\"(\"+str(self.getConfMod(element))+\")\")\n                else:\n                    #Remplacer par module Error Type not installed\n                    print('Module Type is Not Installed')\n            else:\n                #Remplacer par module Error No Type \n                print('Module Has No Type')\n        return Temporal\n\n\n    def controllerMain(self, aParams): \n        print(\"HolaNegro\")\n        return\n    def controllerRobotTrain(self, aParams): return\n    def controllerRobotTrainSparbar(self, aParams): return\n    def controllerExerciceWithStrike(self, aParams): return\n    def obtainRobotCaractersModules(self,sFile):\n        ObjectsRegex = re.compile('Objects ?= ?/(.+?)/')\n        file = open(sFile,'r').read()\n        MatchesObjects = ObjectsRegex.match(file).groups(0)[0].split(',')\n        DictRegex = {}\n        ReturnReg = {}\n        for match in MatchesObjects:\n            DictRegex[match] = re.compile(r\"<\" + match + \">(.+?)<End\" + match + \">\")\n\n        for Object in DictRegex.keys():\n            if(DictRegex[Object].search(file) == None):\n                #Remplace par Module erreur\n                print(Object + 'Error')\n            else:\n                DictRegex[Object]= DictRegex[Object].search(file).groups(0)[0].strip().split(';')\n                ReturnReg[Object] = {}\n                for Caracteristique in DictRegex[Object]:\n                    temporalVar = Caracteristique.split('=')\n                    \n                    if(',' in temporalVar[1]):\n                        ReturnReg[Object][temporalVar[0].strip()] = temporalVar[1].strip().split(',')\n                    else:\n                        ReturnReg[Object][temporalVar[0].strip()] = temporalVar[1].strip()\n\n        return ReturnReg\n    def getConfMod(self,Mod,Char=''):\n        if(Mod not in self.RobotModules):\n            #Module Dont exist Remplace Error\n            print(\"Error\")\n            return\n        else:\n            if(Char == ''):\n                return self.RobotModules[Mod]\n            else:\n                return self.RobotModules[Mod][Char]\n    def displayModulesPrint(self):\n        for material in self.RobotModules.keys():\n            print(\"MATERIAL :\" + material)\n            for Specs in robot.RobotModules[material].keys():\n                print(Specs+ \" :: \"+ str(robot.RobotModules[material][Specs]))\n            print(\"\\n\")\n    async def _useModule(self,Mod,Method = \"run\",Requests = 1,Sleep = 0, aParams=[]):\n        tasks = []\n        if(Mod not in self.Robot.keys()):\n            #Module Dont exist Remplace Error\n            print(\"Error\")\n        else:\n            if(Method in dir(self.Robot[Mod])):\n                sParams = str(aParams).strip(\"[\")\n                sParams = sParams.strip(\"]\")\n\n                for idx in range(1, Requests+1):\n                    Query = \"self.Robot['\" + Mod + \"'].\" + Method + \"(\" + sParams + \")\"\n                    print(Query)\n                    tsk = asyncio.ensure_future(eval(Query))\n                    tasks.append(tsk)\n                    await asyncio.sleep(Sleep)\n                await asyncio.wait(tasks)\n            else:\n                #Replace for Module Error, Method Composant Dont Exist\n                print(\"Error h\")\n\n    def useModule(self,Mod,Method = \"run\",Requests = 1,Sleep = 0, aParams = []):\n        Loop = asyncio.get_event_loop()\n        Loop.run_until_complete(self._useModule(Mod,Method,Requests,Sleep, aParams))\n    \nrobot = ControllerRobot('Main')\nprint(robot.Robot['UltrasonGaucheTorse'].Trigg)\n\nrobot.useModule('UltrasonGaucheTorse','takeMesure',10,0,[2])\nrobot.useModule('MoteurSparBar','turnSpeed',10,0,[2])\n",
+			"file": "intelligencia/index.py",
+			"file_size": 6015,
+			"file_write_time": 131611130513010452,
+			"settings":
+			{
+				"buffer_size": 5838,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nGitHubIssue\n-----------\n\n  Thanks for installing Github Issue!\n  \n  Special Attention: You will need to restart Sublime Text after installing this plug-in to make it work properly.\n  \n  This plugin aims at providing a convenient way to write and update issues inside sublime text. Instead of opening a external Internet browser, this plug-in open a new buffer and let users to write/modify issue content using Markdown natively within sublime Text.\n  \n  It was initially inspired by github-issues.vim.\n  \n  ## Features\n  \n  - Create/post/update/open/close github issues inside Sublime Text.\n  \n  - Browse/navigate the issue list of any public repos and users' private repos.\n  \n  - Auto-complete issue titles, labels and issue participants.\n  \n  - Using Markdown as the default syntax of issue, allowing users to choose other syntaxes as well.\n  \n  \n  \n  All commands are runnable through Command Palette, please have a look at Command Palette.sublime-commands to get more ideas about the commands available.\n  \n  some shortcut keys are pre-defined:\n  \n  In an issue List view, Press Enter or Right Arrow to open a paticular issue\n  In an issue view, Press Super+S to sync current issue or comments with Github\n  \n  \n  \n  Please refer to: https://github.com/divinites/gissues for more information and illustrations.\n",
+			"settings":
+			{
+				"buffer_size": 1367,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "    async def _useModule(self,Mod,Method = \"run\",Requests = 1,Sleep = 0, aParams=[]):\n        tasks = []\n        if(Mod not in self.Robot.keys()):\n            #Module Dont exist Remplace Error\n            print(\"Error\")\n        else:\n            if(Method in dir(self.Robot[Mod])):\n                sParams = str(aParams).strip(\"[\")\n                sParams = sParams.strip(\"]\")\n\n                for idx in range(1, Requests+1):\n                    Query = \"self.Robot['\" + Mod + \"'].\" + Method + \"(\" + sParams + \")\"\n                    print(Query)\n                    tsk = asyncio.ensure_future(eval(Query))\n                    tasks.append(tsk)\n                    await asyncio.sleep(Sleep)\n                await asyncio.wait(tasks)\n            else:\n                #Replace for Module Error, Method Composant Dont Exist\n                print(\"Error h\")\n\n    def useModule(self,Mod,Method = \"run\",Requests = 1,Sleep = 0, aParams = []):\n        Loop = asyncio.get_event_loop()\n        Loop.run_until_complete(self._useModule(Mod,Method,Requests,Sleep, aParams))\n    \n",
+			"settings":
+			{
+				"buffer_size": 1070,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test5.py",
+			"settings":
+			{
+				"buffer_size": 1747,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "intelligencia/Robot.aee",
+			"settings":
+			{
+				"buffer_size": 1356,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "intelligencia/classRobot/__init__.py",
+			"settings":
+			{
+				"buffer_size": 412,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "intelligencia/classRobot/composantUltrasonic.py",
+			"settings":
+			{
+				"buffer_size": 1871,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "intelligencia/classRobot/composantMotorDC.py",
+			"settings":
+			{
+				"buffer_size": 719,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test4.py",
+			"settings":
+			{
+				"buffer_size": 2558,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test6.py",
+			"settings":
+			{
+				"buffer_size": 251,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Box",
+				"Boxy Theme: Activation"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"paga",
+				"Install Package Control"
+			]
+		],
+		"width": 623.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/octopus/Bureau/Ares/Files"
+	],
+	"file_history":
+	[
+		"/D/Projects/Ares/Files/intelligencia/classRobot/classPower.py",
+		"/D/Projects/Ares/Files/intelligencia/classRobot/composantUltrasonic.py",
+		"/D/Projects/Ares/Files/intelligencia/classRobot/composantMotorDC.py",
+		"/D/Projects/Ares/Files/intelligencia/classRobot/classSparBar.py",
+		"/D/Projects/Ares/Files/classes/classDate.py",
+		"/D/Projects/Ares/Files/test3.py",
+		"/D/Projects/Ares/Files/test.py",
+		"/D/Projects/Ares/Files/lang/langEN.py",
+		"/D/Projects/Ares/Files/lang/langFR.py",
+		"/D/Projects/Ares/Files/lang/langES.py",
+		"/D/Projects/Ares/Files/core/tradeclass.py",
+		"/D/Projects/Ares/Files/constants.py",
+		"/D/Projects/Ares/Files/classes/classAres.py",
+		"/D/Projects/Ares/Files/lang/lang00.py",
+		"/D/Projects/Ares/Files/classes/classHash.py",
+		"/D/Projects/Ares/Files/core/list/listError.py",
+		"/D/Projects/Ares/Files/intelligencia/index.py",
+		"/D/Projects/Ares/Files/index.py",
+		"/C/Users/Octopus/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Octopus/AppData/Roaming/Sublime Text 3/Packages/User/AdvancedNewFile.sublime-settings",
+		"/C/Users/Octopus/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/C/Users/Octopus/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/README.md",
+		"/D/Projects/Ares/Files/classes/classLanguage.py",
+		"/C/Users/Octopus/AppData/Roaming/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/C/Users/Octopus/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/home/redsky/Bureau/Ares/Files/core/test2.py",
+		"/home/redsky/Bureau/Ares/Files/core/list/listError.py",
+		"/home/redsky/Bureau/Ares/Files/classes/classError.py",
+		"/home/redsky/Bureau/Ares/Files/classes/classHash.py",
+		"/home/redsky/Bureau/Ares/Files/lang/langFR.py",
+		"/home/redsky/.config/sublime-text-3/Packages/User/AdvancedNewFile.sublime-settings",
+		"/home/redsky/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/redsky/Bureau/Ares/Files/lang/langES.py",
+		"/home/redsky/Bureau/Ares/Files/lang/langDefault.py",
+		"/home/redsky/Bureau/Ares/Files/lang/langES.aee",
+		"/home/redsky/Bureau/Ares/Files/core/list/__init__.py",
+		"/home/redsky/Bureau/Ares/Files/core/serialize.py",
+		"/home/redsky/Bureau/Ares/Files/core/traderror.py",
+		"/home/redsky/Bureau/Ares/Files/log/errorLogs.aee",
+		"/home/redsky/Bureau/Ares/Files/core/list/listClass.py",
+		"/home/redsky/Bureau/Ares/Files/log/errorsBackUp.aee",
+		"/home/redsky/Bureau/Ares/Files/core/list/traderror.py",
+		"/home/redsky/Bureau/Ares/Files/core/tradeclass.py",
+		"/home/redsky/Bureau/Ares/Files/classes/__init__.py",
+		"/home/redsky/.config/sublime-text-3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/home/redsky/Bureau/Ares/Files/include/library/ares/classAres.py",
+		"/home/redsky/Bureau/Ares/Files/include/__init__.py",
+		"/home/redsky/Bureau/Ares/Files/__init__.py",
+		"/home/redsky/Bureau/Ares/Files/include/library/__init__.py",
+		"/home/redsky/Bureau/Ares/Files/include/library/ares/__init__.py",
+		"/home/redsky/Bureau/Ares/Files/index.py",
+		"/home/redsky/Bureau/das.php",
+		"/home/redsky/kaka",
+		"/home/redsky/kaka.php"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 169.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Motor",
+			"ds"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "intelligencia/index.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5838,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2608,
+								2608
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										4559,
+										4560
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										4518,
+										4519
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1577.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								234,
+								234
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1070,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1070,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "test5.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1747,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1170,
+								1170
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 570.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "intelligencia/Robot.aee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1356,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1218,
+								1218
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "intelligencia/classRobot/__init__.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3,
+								3
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "intelligencia/classRobot/composantUltrasonic.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1871,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1746,
+								1746
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										499,
+										500
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										495,
+										496
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1016.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "intelligencia/classRobot/composantMotorDC.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 719,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								663,
+								663
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										486,
+										487
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										480,
+										481
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "test4.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2558,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2229,
+								2229
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 454.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "test6.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 251,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								183,
+								183
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 65.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 156.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 132.0
+	},
+	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
+	"project": "Ares.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 153.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

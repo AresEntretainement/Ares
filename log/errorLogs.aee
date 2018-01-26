@@ -1,0 +1,100 @@
+(dp0
+S'errorMsg'
+p1
+S'Hello World'
+p2
+sS'errorType'
+p3
+S'Test'
+p4
+s.(dp0
+S'errorMsg'
+p1
+S'Language Initialization Object'
+p2
+sS'errorType'
+p3
+S'ErrorInstallLang'
+p4
+s.(dp0
+S'errorMsg'
+p1
+S'Language Initialization Object'
+p2
+sS'errorType'
+p3
+S'ErrorInstallLang'
+p4
+s.(dp0
+S'errorMsg'
+p1
+S'Language Initialization Object'
+p2
+sS'errorType'
+p3
+S'ErrorInstallLang'
+p4
+s.(dp0
+S'errorMsg'
+p1
+S'Language not installed'
+p2
+sS'errorType'
+p3
+S'ErrorLangExistence'
+p4
+s.(dp0
+S'errorMsg'
+p1
+S'Language not installed'
+p2
+sS'errorType'
+p3
+S'ErrorLangExistence'
+p4
+s.(dp0
+S'errorMsg'
+p1
+S'Phrase dont exist in this package Language'
+p2
+sS'errorType'
+p3
+S'ErrorLangPhraseExistenceDictionnary'
+p4
+s.(dp0
+S'errorMsg'
+p1
+S'Phrase dont exist in this package Language'
+p2
+sS'errorType'
+p3
+S'ErrorLangPhraseExistenceDictionnary'
+p4
+s.(dp0
+S'errorMsg'
+p1
+S'Phrase dont exist in this package Language'
+p2
+sS'errorType'
+p3
+S'ErrorLangPhraseExistenceDictionnary'
+p4
+s.(dp0
+S'errorMsg'
+p1
+S'Phrase dont exist in this package Language'
+p2
+sS'errorType'
+p3
+S'ErrorLangPhraseExistenceDictionnary'
+p4
+s.(dp0
+S'errorMsg'
+p1
+S'Phrase dont exist in this package Language'
+p2
+sS'errorType'
+p3
+S'ErrorLangPhraseExistenceDictionnary'
+p4
+s.
