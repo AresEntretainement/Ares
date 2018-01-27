@@ -14,10 +14,10 @@ Controller Robot Test Example
 #Constantes Parametriques
 CONST_FILE_ROBOT = "Robot.aee"
 
-#Implementation des Modules et Librairies
+#Implementation des Modules et Librairies Python
 import re
 import asyncio
-from threading import Thread
+
 
 #Implementation du des differents composants
 from classRobot import *
@@ -25,14 +25,8 @@ import classBD as BD
 import classMoyenne as Moyenne
 import classTimer as Timer
 import classExercice as Exercice
-import classCoup as Coupn
+import classCoup as Coup
 
-
-
-"""INTRUSIVE ZONE"""
-
-
-""""""
 
 
 class ControllerRobot:
@@ -171,4 +165,8 @@ robot.do(
         robot.useModule('MoteurSparBar','turnSpeed',10,1,[2])
     ]
 )
+
+
+
+
 
