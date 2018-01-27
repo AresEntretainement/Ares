@@ -27,8 +27,6 @@ class Ultrasonic:
         # instead of physical pin numbers
         GPIO.setmode(GPIO.BCM)
 
-        
-        print "Ultrasonic Measurement"
 
         # Set pins as output and input
         GPIO.setup(self.Trigg,GPIO.OUT)  # Trigger
@@ -47,26 +45,26 @@ class Ultrasonic:
         time.sleep(pause)
         GPIO.output(self.Trigg, False)
         start = time.time()
-        while GPIO.input()==0:
+        while GPIO.input(self.Echo)==0:
           start = time.time()
 
         while GPIO.input(self.Echo)==1:
           stop = time.time()
 
-        # Calculate pulse length
-        elapsed = stop-start
+    distance = allerRetour * 34029 # parce qu'on est précis
 
-        # Distance pulse travelled in that time is time
-        # multiplied by the speed of sound (cm/s)
-        distance = elapsed * 34000
+    distance = distance / 200
 
-        # That was the distance there and back so halve the value
-        distance = distance / 2
+    print "Distance : %.1f" % distance
 
-        #partie pour prendre la force à partir de la distance
-        distanceInit = 12
-        distanceParcourue = distanceInit - distance
-        force = 3.913 * distanceParcourue
+    #partie pour prendre la force à partir de la distance
+    distanceInit = 12
+    distanceParcourue = distanceInit - distance
+    print "La distance parcourue est de : %1.f cm" % distanceParcourue
+    # K = 3.913N/mm soit 39.13N/cm => distance en cm donc conversion de K
+    # Autre méthode est de faire 3.913 * distanceParcourue 
+    force = 39.13 * distanceParcourue
+    print "La force du coup est de : %1.f N" % force 
         
         self.ListTest.append(force)
 
