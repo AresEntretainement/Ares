@@ -64,6 +64,7 @@ GPIO.cleanup()
 @export
 class Ultrasonic:
     ValuesCharge = {}
+    ListTest = []
     RequiredElements = ['Type','NumberPorts','Utilisation','PortNames']
     def __init__(self,Configuration):
         for conf in self.RequiredElements:
@@ -79,6 +80,10 @@ class Ultrasonic:
         #GPIO.setmode(GPIO.BCM)
     async def takeMesure(self,x):
         print('Taking Mesure')
+        for i in range(100):
+            self.ListTest.append(i)
+
+
         await asyncio.sleep(x)
         print('Mesure Token')
         return 'Mesure Token'

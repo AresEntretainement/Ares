@@ -25,7 +25,7 @@ import classBD as BD
 import classMoyenne as Moyenne
 import classTimer as Timer
 import classExercice as Exercice
-import classCoup as Coup
+import classCoup as Coupn
 
 
 
@@ -43,12 +43,10 @@ class ControllerRobot:
 
     InstalledModules = {'Ultrasonic','MotorDC'}
 
-    Threads = []
-
     def __init__(self, sControllerType,aParams = []):
         self.RobotModules = self.obtainRobotCaractersModules(CONST_FILE_ROBOT)
         self.Robot = self.recognizeTypes()
-
+        self.Tasks = []
         if (sControllerType == "ExerciceWithStrike"):
             self.controllerExerciceWithStrike(aParams)
         elif (sControllerType == "RobotTrainSparbar"):
@@ -81,9 +79,7 @@ class ControllerRobot:
         return Temporal
 
 
-    def controllerMain(self, aParams): 
-        print("HolaNegro")
-        return
+    def controllerMain(self, aParams): return
     def controllerRobotTrain(self, aParams): return
     def controllerRobotTrainSparbar(self, aParams): return
     def controllerExerciceWithStrike(self, aParams): return
@@ -128,7 +124,7 @@ class ControllerRobot:
             for Specs in robot.RobotModules[material].keys():
                 print(Specs+ " :: "+ str(robot.RobotModules[material][Specs]))
             print("\n")
-    async def _useModule(self,Mod,Method = "run",Requests = 1,Sleep = 0, aParams=[]):
+    async def useModule(self,Mod,Method = "run",Requests = 1,Sleep = 0, aParams=[]):
         tasks = []
         if(Mod not in self.Robot.keys()):
             #Module Dont exist Remplace Error
@@ -140,21 +136,39 @@ class ControllerRobot:
 
                 for idx in range(1, Requests+1):
                     Query = "self.Robot['" + Mod + "']." + Method + "(" + sParams + ")"
-                    print(Query)
                     tsk = asyncio.ensure_future(eval(Query))
-                    tasks.append(tsk)
-                    await asyncio.sleep(Sleep)
-                await asyncio.wait(tasks)
+                    self.Tasks.append(tsk)
+                    asyncio.sleep(Sleep)
+
             else:
                 #Replace for Module Error, Method Composant Dont Exist
                 print("Error h")
 
-    def useModule(self,Mod,Method = "run",Requests = 1,Sleep = 0, aParams = []):
+    def run(self):
         Loop = asyncio.get_event_loop()
-        Loop.run_until_complete(self._useModule(Mod,Method,Requests,Sleep, aParams))
-    
-robot = ControllerRobot('Main')
-print(robot.Robot['UltrasonGaucheTorse'].Trigg)
+        Loop.run_until_complete(asyncio.gather(*self.Tasks))
+        self.Tasks = []
+    async def _do(self, Funcs = []):
+        await asyncio.wait(Funcs)
 
-robot.useModule('UltrasonGaucheTorse','takeMesure',10,0,[2])
-robot.useModule('MoteurSparBar','turnSpeed',10,0,[2])
+    def do(self,Funcs = []):
+        try:
+            loop = asyncio.get_event_loop()
+            loop.run_until_complete(self._do(Funcs))
+        except Exception:
+            #Remplace error Execution not possible
+            print("Error")
+            return
+        robot.run()
+
+
+
+
+robot = ControllerRobot('Main')
+robot.do(
+    [
+        robot.useModule('UltrasonGaucheTorse','takeMesure',2,0,[2]),
+        robot.useModule('MoteurSparBar','turnSpeed',10,1,[2])
+    ]
+)
+
