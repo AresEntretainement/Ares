@@ -159,12 +159,14 @@ class ControllerRobot:
 
 
 robot = ControllerRobot('Main')
+print(robot.Robot['UltrasonGaucheTorse'].ListTest)
 robot.do(
     [
-        robot.useModule('UltrasonGaucheTorse','takeMesure',2,0,[2]),
+        robot.useModule('UltrasonGaucheTorse','mesureForce',10,0,[1]),
         robot.useModule('MoteurSparBar','turnSpeed',10,1,[2])
     ]
 )
+print(robot.Robot['UltrasonGaucheTorse'].ListTest)
 
 
 
