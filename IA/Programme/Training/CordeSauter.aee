@@ -1,3 +1,6 @@
+Objects = /Proprieties,DefaultValues,DefLib,Fields=Questions;/
+
+
 <Proprieties><EndProprieties>
 Name:ShadowBoxing
 V-DefaultPause:PauseDictLevel
