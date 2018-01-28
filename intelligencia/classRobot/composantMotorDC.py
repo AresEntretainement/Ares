@@ -21,20 +21,12 @@ class MotorDC:
 
         GPIO.setmode(GPIO.BCM)              # GPIO Numbering
 
-        OutLine = 16      ## premiere sortie du premier moteur, pin 16
-        AlphaRaport = 18      ## deuxieme sortie de premier moteur, pin 18
-        Truc = 22      ## enable du premier moteur, pin 22
+        Truc = 7      ## enable du premier moteur, pin 22
 
-        GPIO.setup(self.OutLine,GPIO.OUT)  # All pins as Outputs
-        GPIO.setup(self.AlphaRaport,GPIO.OUT)
         GPIO.setup(self.Truc,GPIO.OUT)
 
     async def moteur(self, pause): 
-
-
-
-            GPIO.output(self.OutLine,GPIO.HIGH)
-            GPIO.output(self.AlphaRaport,GPIO.LOW)
+            #Run
             GPIO.output(self.Truc,GPIO.HIGH)
  
             sleep(pause)
