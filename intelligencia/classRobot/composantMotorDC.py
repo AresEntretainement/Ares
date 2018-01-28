@@ -19,18 +19,32 @@ class MotorDC:
 
 ## Controle d'un moteur DC par le Raspberry Pi
 
-        GPIO.setmode(GPIO.BCM)              # GPIO Numbering
+    GPIO.setmode(GPIO.BOARD)              # GPIO Numbering
 
-        Truc = 7      ## enable du premier moteur, pin 22
+    GPIO.setup(3, GPIO.OUT)
 
-        GPIO.setup(self.Truc,GPIO.OUT)
+    # pin 3 à 50Hz
+    pwm = GPIO.PWM(3, 50)
 
-    async def moteur(self, pause): 
-            #Run
-            GPIO.output(self.Truc,GPIO.HIGH)
- 
-            sleep(pause)
-            # Stop
-            GPIO.output(self.Truc,GPIO.LOW)
+    # cycle 0 comme ça aucun angle par défaut lors du démarrage
+    pwm.start(0)
 
-            GPIO.cleanup()
+    async def SetAngle(angle):
+
+        duty = angle / 18 + 2
+
+        GPIO.output(03, True)
+
+        pwm.ChangeDutyCycle(duty)
+
+        sleep(1)
+
+        GPIO.output(03, False)
+
+        pwm.ChangeDutyCycle(0)
+
+    SetAngle(90)
+
+    pwm.stop()
+
+    GPIO.cleanup()
