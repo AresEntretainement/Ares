@@ -1,0 +1,26 @@
+Objects = /Proprieties,DefaultValues,DefLib,Fields=Questions;/
+
+
+<Proprieties><EndProprieties>
+Name:ShadowBoxing
+V-DefaultPause:PauseDictLevel
+V-DefaultTimeRound:TimeRoundLevel
+V-DefaultRoundNumber:RoundNumberLevel
+[Questions]
+Q-PauseField,max=120,DefaultPause
+Q-TimeRoundField,max=360,DefaultTimeRound
+Q-RoundNumberField,max=7,DefaultRoundNumber
+[EndQuestions]
+[Buttons]
+B-Return;FormReturn
+B-Stop;WidgetExit
+[EndButtons]
+[Program]
+P-Exercice
+[EndProgram]
+[Biblio]
+D-PauseDictLevel={A:1,B:2,C:3}
+D-TimeRoundLevel={A:1,B:2,C:3}
+D-RoundNumberLevel={A:1,B:2,C:3}
+[EndBiblio]
+[End]

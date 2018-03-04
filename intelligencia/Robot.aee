@@ -8,4 +8,4 @@ Objects = /UltrasonGaucheTorse,UltrasonDroiteTorse,UltrasonMilieuHaut,UltrasonMi
 <UltrasonTeteCentral>Type = Ultrasonic;NumberPorts = 2;Utilisation = Tete Central;PortNames = Trigg,Echo;Trigg = 9;Echo = 10<EndUltrasonTeteCentral>
 <UltrasonTeteGauche>Type = Ultrasonic;NumberPorts = 2;Utilisation = Tete Gauche;PortNames = Trigg,Echo;Trigg = 11;Echo = 12<EndUltrasonTeteGauche>
 <UltrasonTeteDroite>Type = Ultrasonic;NumberPorts = 2;Utilisation = Tete Droite;PortNames = Trigg,Echo;Trigg = 13;Echo = 14<EndUltrasonTeteDroite>
-<MoteurSparBar>Type = MotorDC;NumberPorts = 2;Utilisation = Move SparBar With Roue Libre;PortNames = OutLine,AlphaRaport;OutLine = 15;AlphaRaport = 16<EndMoteurSparBar>
+<MoteurSparBar>Type = MotorDC;NumberPorts = 2;Utilisation = Move SparBar With Roue Libre;PortNames = OutLine,AlphaRaport,Truc;OutLine = 16;AlphaRaport = 18;Truc = 22<EndMoteurSparBar>

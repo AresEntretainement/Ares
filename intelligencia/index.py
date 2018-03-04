@@ -9,15 +9,15 @@ Controller Robot Test Example
  -Main Menu IU Utilisateur: Main
  Ces besoins seront lances en paralleles et diriges par ce controlleur pour modeliser les differentes actions:
 
-
+dfsd
 """
 #Constantes Parametriques
 CONST_FILE_ROBOT = "Robot.aee"
 
-#Implementation des Modules et Librairies
+#Implementation des Modules et Librairies Python
 import re
 import asyncio
-from threading import Thread
+
 
 #Implementation du des differents composants
 from classRobot import *
@@ -25,14 +25,8 @@ import classBD as BD
 import classMoyenne as Moyenne
 import classTimer as Timer
 import classExercice as Exercice
-import classCoup as Coupn
+import classCoup as Coup
 
-
-
-"""INTRUSIVE ZONE"""
-
-
-""""""
 
 
 class ControllerRobot:
@@ -165,9 +159,19 @@ class ControllerRobot:
 
 
 robot = ControllerRobot('Main')
+print(robot.Robot['UltrasonGaucheTorse'].ListTest)
 robot.do(
     [
-        robot.useModule('UltrasonGaucheTorse','takeMesure',2,0,[2]),
+        robot.useModule('UltrasonGaucheTorse','mesureForce',10,0,[1]),
         robot.useModule('MoteurSparBar','turnSpeed',10,1,[2])
     ]
 )
+<<<<<<< HEAD
+=======
+print(robot.Robot['UltrasonGaucheTorse'].ListTest)
+
+
+
+
+
+>>>>>>> 239260d0f98eedf718dedb43bf7fb282e3cdb6dc

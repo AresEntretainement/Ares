@@ -4,16 +4,16 @@
 		"selected_items":
 		[
 			[
+				"get",
+				"getConfMod"
+			],
+			[
 				"Threa",
 				"Threads"
 			],
 			[
 				"asy",
 				"asyncio〔module〕"
-			],
-			[
-				"get",
-				"get_event_loop"
 			],
 			[
 				"a",
@@ -300,49 +300,19 @@
 	"buffers":
 	[
 		{
-			"contents": "\"\"\"\nController Robot Test Example\n Dans cette fonction on retrouve la complete manipulation de la classe Robot\n par les differents types de besoin pour le programme\n Liste de besoins:\n -Exercice Entrainement With Strike : ExerciceWithStrike\n -Robot Training with SparBar : RobotTrainSparbar\n -Robot training normal : RobotTrain\n -Main Menu IU Utilisateur: Main\n Ces besoins seront lances en paralleles et diriges par ce controlleur pour modeliser les differentes actions:\n\n\n\"\"\"\n#Constantes Parametriques\nCONST_FILE_ROBOT = \"Robot.aee\"\n\n#Implementation des Modules et Librairies\nimport re\nimport asyncio\nfrom threading import Thread\n\n#Implementation du des differents composants\nfrom classRobot import *\nimport classBD as BD\nimport classMoyenne as Moyenne\nimport classTimer as Timer\nimport classExercice as Exercice\nimport classCoup as Coup\n\n\n\n\"\"\"INTRUSIVE ZONE\"\"\"\n\n\n\"\"\"\"\"\"\n\n\nclass ControllerRobot:\n    #Ports du robot qui seront transmis a la classe robot\n    Robot = {}\n    #Modules Installes du Robot\n    RobotModules = {}\n\n    InstalledModules = {'Ultrasonic','MotorDC'}\n\n\n    def __init__(self, sControllerType,aParams = []):\n        self.RobotModules = self.obtainRobotCaractersModules(CONST_FILE_ROBOT)\n        self.Robot = self.recognizeTypes()\n\n        if (sControllerType == \"ExerciceWithStrike\"):\n            self.controllerExerciceWithStrike(aParams)\n        elif (sControllerType == \"RobotTrainSparbar\"):\n            self.controllerRobotTrainSparbar(aParams)\n        elif (sControllerType == \"RobotTrain\"):\n            self.controllerRobotTrain(aParams)\n        elif (sControllerType == \"Main\"):\n            self.controllerMain(aParams)\n        else:\n            #Remplace par module Error Not Train\n            print(\"Error\")\n        return\n\n    def recognizeTypes(self):\n        Temporal = {}\n        if(self.InstalledModules == {}):\n            #Remplacer par module Error Not Installed\n            print('Is not installed')\n            return\n        for element in self.RobotModules.keys():\n            if(self.RobotModules[element]['Type']):\n                if(self.getConfMod(element,'Type') in self.InstalledModules):\n                    Temporal[element] = eval(self.getConfMod(element,'Type')+\"(\"+str(self.getConfMod(element))+\")\")\n                else:\n                    #Remplacer par module Error Type not installed\n                    print('Module Type is Not Installed')\n            else:\n                #Remplacer par module Error No Type \n                print('Module Has No Type')\n        return Temporal\n\n\n    def controllerMain(self, aParams): \n        print(\"HolaNegro\")\n        return\n    def controllerRobotTrain(self, aParams): return\n    def controllerRobotTrainSparbar(self, aParams): return\n    def controllerExerciceWithStrike(self, aParams): return\n    def obtainRobotCaractersModules(self,sFile):\n        ObjectsRegex = re.compile('Objects ?= ?/(.+?)/')\n        file = open(sFile,'r').read()\n        MatchesObjects = ObjectsRegex.match(file).groups(0)[0].split(',')\n        DictRegex = {}\n        ReturnReg = {}\n        for match in MatchesObjects:\n            DictRegex[match] = re.compile(r\"<\" + match + \">(.+?)<End\" + match + \">\")\n\n        for Object in DictRegex.keys():\n            if(DictRegex[Object].search(file) == None):\n                #Remplace par Module erreur\n                print(Object + 'Error')\n            else:\n                DictRegex[Object]= DictRegex[Object].search(file).groups(0)[0].strip().split(';')\n                ReturnReg[Object] = {}\n                for Caracteristique in DictRegex[Object]:\n                    temporalVar = Caracteristique.split('=')\n                    \n                    if(',' in temporalVar[1]):\n                        ReturnReg[Object][temporalVar[0].strip()] = temporalVar[1].strip().split(',')\n                    else:\n                        ReturnReg[Object][temporalVar[0].strip()] = temporalVar[1].strip()\n\n        return ReturnReg\n    def getConfMod(self,Mod,Char=''):\n        if(Mod not in self.RobotModules):\n            #Module Dont exist Remplace Error\n            print(\"Error\")\n            return\n        else:\n            if(Char == ''):\n                return self.RobotModules[Mod]\n            else:\n                return self.RobotModules[Mod][Char]\n    def displayModulesPrint(self):\n        for material in self.RobotModules.keys():\n            print(\"MATERIAL :\" + material)\n            for Specs in robot.RobotModules[material].keys():\n                print(Specs+ \" :: \"+ str(robot.RobotModules[material][Specs]))\n            print(\"\\n\")\n    async def _useModule(self,Mod,Method = \"run\",Requests = 1,Sleep = 0, aParams=[]):\n        tasks = []\n        if(Mod not in self.Robot.keys()):\n            #Module Dont exist Remplace Error\n            print(\"Error\")\n        else:\n            if(Method in dir(self.Robot[Mod])):\n                sParams = str(aParams).strip(\"[\")\n                sParams = sParams.strip(\"]\")\n\n                for idx in range(1, Requests+1):\n                    Query = \"self.Robot['\" + Mod + \"'].\" + Method + \"(\" + sParams + \")\"\n                    print(Query)\n                    tsk = asyncio.ensure_future(eval(Query))\n                    tasks.append(tsk)\n                    await asyncio.sleep(Sleep)\n                await asyncio.wait(tasks)\n            else:\n                #Replace for Module Error, Method Composant Dont Exist\n                print(\"Error h\")\n\n    def useModule(self,Mod,Method = \"run\",Requests = 1,Sleep = 0, aParams = []):\n        Loop = asyncio.get_event_loop()\n        Loop.run_until_complete(self._useModule(Mod,Method,Requests,Sleep, aParams))\n    \nrobot = ControllerRobot('Main')\nprint(robot.Robot['UltrasonGaucheTorse'].Trigg)\n\nrobot.useModule('UltrasonGaucheTorse','takeMesure',10,0,[2])\nrobot.useModule('MoteurSparBar','turnSpeed',10,0,[2])\n",
 			"file": "intelligencia/index.py",
-			"file_size": 6015,
-			"file_write_time": 131611130513010452,
 			"settings":
 			{
-				"buffer_size": 5838,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Package Control Messages\n========================\n\nGitHubIssue\n-----------\n\n  Thanks for installing Github Issue!\n  \n  Special Attention: You will need to restart Sublime Text after installing this plug-in to make it work properly.\n  \n  This plugin aims at providing a convenient way to write and update issues inside sublime text. Instead of opening a external Internet browser, this plug-in open a new buffer and let users to write/modify issue content using Markdown natively within sublime Text.\n  \n  It was initially inspired by github-issues.vim.\n  \n  ## Features\n  \n  - Create/post/update/open/close github issues inside Sublime Text.\n  \n  - Browse/navigate the issue list of any public repos and users' private repos.\n  \n  - Auto-complete issue titles, labels and issue participants.\n  \n  - Using Markdown as the default syntax of issue, allowing users to choose other syntaxes as well.\n  \n  \n  \n  All commands are runnable through Command Palette, please have a look at Command Palette.sublime-commands to get more ideas about the commands available.\n  \n  some shortcut keys are pre-defined:\n  \n  In an issue List view, Press Enter or Right Arrow to open a paticular issue\n  In an issue view, Press Super+S to sync current issue or comments with Github\n  \n  \n  \n  Please refer to: https://github.com/divinites/gissues for more information and illustrations.\n",
-			"settings":
-			{
-				"buffer_size": 1367,
-				"line_ending": "Unix",
-				"name": "Package Control Messages",
-				"read_only": true,
-				"scratch": true
-			}
-		},
-		{
-			"contents": "    async def _useModule(self,Mod,Method = \"run\",Requests = 1,Sleep = 0, aParams=[]):\n        tasks = []\n        if(Mod not in self.Robot.keys()):\n            #Module Dont exist Remplace Error\n            print(\"Error\")\n        else:\n            if(Method in dir(self.Robot[Mod])):\n                sParams = str(aParams).strip(\"[\")\n                sParams = sParams.strip(\"]\")\n\n                for idx in range(1, Requests+1):\n                    Query = \"self.Robot['\" + Mod + \"'].\" + Method + \"(\" + sParams + \")\"\n                    print(Query)\n                    tsk = asyncio.ensure_future(eval(Query))\n                    tasks.append(tsk)\n                    await asyncio.sleep(Sleep)\n                await asyncio.wait(tasks)\n            else:\n                #Replace for Module Error, Method Composant Dont Exist\n                print(\"Error h\")\n\n    def useModule(self,Mod,Method = \"run\",Requests = 1,Sleep = 0, aParams = []):\n        Loop = asyncio.get_event_loop()\n        Loop.run_until_complete(self._useModule(Mod,Method,Requests,Sleep, aParams))\n    \n",
-			"settings":
-			{
-				"buffer_size": 1070,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "test5.py",
-			"settings":
-			{
-				"buffer_size": 1747,
+				"buffer_size": 6090,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "intelligencia/Robot.aee",
 			"settings":
 			{
-				"buffer_size": 1356,
+				"buffer_size": 1371,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -360,7 +330,7 @@
 			"file": "intelligencia/classRobot/composantUltrasonic.py",
 			"settings":
 			{
-				"buffer_size": 1871,
+				"buffer_size": 2089,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -369,7 +339,7 @@
 			"file": "intelligencia/classRobot/composantMotorDC.py",
 			"settings":
 			{
-				"buffer_size": 719,
+				"buffer_size": 1940,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -416,10 +386,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 357.0,
-		"last_filter": "Package Control: ",
+		"height": 203.0,
+		"last_filter": "Package Control: ins",
 		"selected_items":
 		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
 			[
 				"Package Control: ",
 				"Package Control: Install Package"
@@ -441,7 +415,7 @@
 				"Install Package Control"
 			]
 		],
-		"width": 623.0
+		"width": 540.0
 	},
 	"console":
 	{
@@ -461,10 +435,14 @@
 	},
 	"expanded_folders":
 	[
-		"/home/octopus/Bureau/Ares/Files"
+		"/C/Users/MLG LOUIS SWAGG/Documents/GitHub/Ares",
+		"/C/Users/MLG LOUIS SWAGG/Documents/GitHub/Ares/IA",
+		"/C/Users/MLG LOUIS SWAGG/Documents/GitHub/Ares/intelligencia",
+		"/C/Users/MLG LOUIS SWAGG/Documents/GitHub/Ares/intelligencia/classRobot"
 	],
 	"file_history":
 	[
+		"/C/Users/MLG LOUIS SWAGG/Documents/GitHub/Ares/test5.py",
 		"/D/Projects/Ares/Files/intelligencia/classRobot/classPower.py",
 		"/D/Projects/Ares/Files/intelligencia/classRobot/composantUltrasonic.py",
 		"/D/Projects/Ares/Files/intelligencia/classRobot/composantMotorDC.py",
@@ -522,7 +500,7 @@
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -536,6 +514,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"GPIO_ECHO",
+			"GPIO_TRIGGER",
 			"Motor",
 			"ds"
 		],
@@ -545,6 +525,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"self.Echo",
+			"self.Trigg"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -555,7 +537,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -564,15 +546,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5838,
+						"buffer_size": 6090,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2608,
-								2608
+								5957,
+								5957
 							]
 						],
 						"settings":
@@ -747,116 +729,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1577.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1367,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								234,
-								234
-							]
-						],
-						"settings":
-						{
-							"auto_indent": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_width": 2,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1070,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1070,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1758.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "test5.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1747,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1170,
-								1170
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 570.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
+					"buffer": 1,
 					"file": "intelligencia/Robot.aee",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1356,
+						"buffer_size": 1371,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1218,
-								1218
+								1371,
+								1371
 							]
 						],
 						"settings":
@@ -1015,11 +908,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 2,
 					"file": "intelligencia/classRobot/__init__.py",
 					"semi_transient": false,
 					"settings":
@@ -1031,8 +924,8 @@
 						"selection":
 						[
 							[
-								3,
-								3
+								321,
+								321
 							]
 						],
 						"settings":
@@ -1192,24 +1085,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 3,
 					"file": "intelligencia/classRobot/composantUltrasonic.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1871,
+						"buffer_size": 2089,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1746,
-								1746
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1383,27 +1276,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1016.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 4,
 					"file": "intelligencia/classRobot/composantMotorDC.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 719,
+						"buffer_size": 1940,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								663,
-								663
+								1844,
+								1844
 							]
 						],
 						"settings":
@@ -1577,14 +1470,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 88.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 5,
 					"file": "test4.py",
 					"semi_transient": false,
 					"settings":
@@ -1596,24 +1489,25 @@
 						"selection":
 						[
 							[
-								2229,
-								2229
+								1786,
+								1786
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 454.0,
+						"translation.y": 882.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 6,
 					"file": "test6.py",
 					"semi_transient": false,
 					"settings":
@@ -1638,7 +1532,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -1646,7 +1540,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 22.0
 	},
 	"input":
 	{
@@ -1687,11 +1581,11 @@
 	{
 		"height": 132.0
 	},
-	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
 	"project": "Ares.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1729,7 +1623,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 153.0,
+	"side_bar_width": 121.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
