@@ -4,8 +4,312 @@
 		"selected_items":
 		[
 			[
+				"Exe",
+				"ExerciceWithStrike"
+			],
+			[
+				"E",
+				"ExerciceWithStrike"
+			],
+			[
+				"Exer",
+				"ExerciceStart"
+			],
+			[
+				"dFiel",
+				"dFields〔argument〕"
+			],
+			[
 				"get",
-				"getConfMod"
+				"getExercicesInstalled〔function〕"
+			],
+			[
+				"Field",
+				"FieldsExercicesInstalled"
+			],
+			[
+				"su",
+				"subsModulesInstalled"
+			],
+			[
+				"class",
+				"classDatabase〔module〕"
+			],
+			[
+				"Algorith",
+				"AlgorithmsInstalled"
+			],
+			[
+				"CON",
+				"CONST_TRAINING〔module〕"
+			],
+			[
+				"COntroll",
+				"ControllerTraining"
+			],
+			[
+				"CONST_",
+				"CONST_COEFF_CARDIO_MESURE"
+			],
+			[
+				"P",
+				"Pseudo"
+			],
+			[
+				"Fiel",
+				"FieldsUsers〔module〕"
+			],
+			[
+				"Fie",
+				"FieldsUsers〔module〕"
+			],
+			[
+				"sha",
+				"sha384"
+			],
+			[
+				"controller",
+				"controllerDB"
+			],
+			[
+				"aList",
+				"aListQuery"
+			],
+			[
+				"d",
+				"dField.values"
+			],
+			[
+				"dic",
+				"dicti〔variable〕"
+			],
+			[
+				"cla",
+				"classes"
+			],
+			[
+				"by",
+				"bytes〔class〕"
+			],
+			[
+				"seti",
+				"serialize〔function〕"
+			],
+			[
+				"Lev",
+				"LevelAthletics"
+			],
+			[
+				"s",
+				"sDatabase"
+			],
+			[
+				"ARE",
+				"ARES_SETTINGS_DATABASE_PATH"
+			],
+			[
+				"list",
+				"listFiles〔variable〕"
+			],
+			[
+				"lang",
+				"langFiles〔variable〕"
+			],
+			[
+				"import",
+				"importlib〔module〕"
+			],
+			[
+				"a",
+				"aStandardErrorList"
+			],
+			[
+				"RU",
+				"RuffierDickson"
+			],
+			[
+				"CONS",
+				"CONST_TIME_SLEEP_CARDIO_MESURE〔variable〕"
+			],
+			[
+				"T",
+				"Type"
+			],
+			[
+				"Exerci",
+				"ExerciceMuscular"
+			],
+			[
+				"Perfo",
+				"PerformanceReps〔variable〕"
+			],
+			[
+				"picke",
+				"pickle_in〔variable〕"
+			],
+			[
+				"Pause",
+				"PauseInput"
+			],
+			[
+				"CO",
+				"CONST_PRINT〔variable〕"
+			],
+			[
+				"Defaul",
+				"DefaultTimeRound"
+			],
+			[
+				"date",
+				"datebaseFile〔variable〕"
+			],
+			[
+				"Tra",
+				"TrainingParties"
+			],
+			[
+				"Train",
+				"Training"
+			],
+			[
+				"Tr",
+				"TrainingParties"
+			],
+			[
+				"Trai",
+				"Training"
+			],
+			[
+				"_",
+				"_Training"
+			],
+			[
+				"Contro",
+				"ControllerTraining〔class〕"
+			],
+			[
+				"Eval",
+				"EvaluationTraining"
+			],
+			[
+				"True",
+				"True〔variable〕"
+			],
+			[
+				"impo",
+				"importlib〔module〕"
+			],
+			[
+				"Exercice",
+				"ExerciceStart"
+			],
+			[
+				"Ea",
+				"EvaluationTraining"
+			],
+			[
+				"Re",
+				"ReturnLoadedTrains〔variable〕"
+			],
+			[
+				"controllerExer",
+				"controllerExerciceMuscular"
+			],
+			[
+				"Rob",
+				"RobotTrain"
+			],
+			[
+				"COn",
+				"CONST_PATH_TRAININGS〔variable〕"
+			],
+			[
+				"ISN",
+				"INSTALLPACK"
+			],
+			[
+				"Modu",
+				"ModulesInstalled〔module〕"
+			],
+			[
+				"Mo",
+				"ModulesInstalled"
+			],
+			[
+				"Que",
+				"Queryed〔variable〕"
+			],
+			[
+				"ke",
+				"keys"
+			],
+			[
+				"INS",
+				"INSTALLPACK〔variable〕"
+			],
+			[
+				"Pro",
+				"Proprieties"
+			],
+			[
+				"O",
+				"Object"
+			],
+			[
+				"Dict",
+				"DictRegex〔variable〕"
+			],
+			[
+				"Fields",
+				"FieldsRegex〔variable〕"
+			],
+			[
+				"File",
+				"FieldsRegex"
+			],
+			[
+				"FieldEx",
+				"FieldExpressionVars〔variable〕"
+			],
+			[
+				"Le",
+				"Levels〔variable〕"
+			],
+			[
+				"Progr",
+				"ProgramList〔variable〕"
+			],
+			[
+				"Pr",
+				"ProgramList〔variable〕"
+			],
+			[
+				"Progra",
+				"ProgramsList〔variable〕"
+			],
+			[
+				"Con",
+				"ControllerTraining〔class〕"
+			],
+			[
+				"Robot",
+				"RobotTrain"
+			],
+			[
+				"Robo",
+				"RobotTrainSparbar"
+			],
+			[
+				"Ins",
+				"InstalledPrograms〔argument〕"
+			],
+			[
+				"Ex",
+				"Exception〔class〕"
+			],
+			[
+				"Ultra",
+				"Ultrason"
 			],
 			[
 				"Threa",
@@ -16,16 +320,8 @@
 				"asyncio〔module〕"
 			],
 			[
-				"a",
-				"aParams"
-			],
-			[
 				"run",
 				"run_until_complete"
-			],
-			[
-				"Re",
-				"Requests"
 			],
 			[
 				"as",
@@ -100,10 +396,6 @@
 				"Dictionary"
 			],
 			[
-				"Robo",
-				"RobotModules〔variable〕"
-			],
-			[
 				"Installed",
 				"InstalledModules"
 			],
@@ -114,10 +406,6 @@
 			[
 				"rob",
 				"RobotModules〔variable〕"
-			],
-			[
-				"Robot",
-				"RobotModules"
 			],
 			[
 				"R",
@@ -156,24 +444,12 @@
 				"PARAM_LANG_DEFAULT"
 			],
 			[
-				"s",
-				"sLangUsed〔variable〕"
-			],
-			[
 				"La",
 				"sLangUsed〔variable〕"
 			],
 			[
 				"self",
 				"self"
-			],
-			[
-				"lang",
-				"langFiles"
-			],
-			[
-				"P",
-				"PARAM_LANG_DEFAULT"
 			],
 			[
 				"print",
@@ -208,10 +484,6 @@
 				"sPassword〔variable〕"
 			],
 			[
-				"sha",
-				"sha1〔function〕"
-			],
-			[
 				"sE",
 				"sErrorMsg"
 			],
@@ -232,20 +504,8 @@
 				"sErrorType"
 			],
 			[
-				"d",
-				"dErrorDictionary"
-			],
-			[
 				"Error",
 				"ErrorDictionary"
-			],
-			[
-				"E",
-				"Exception〔class〕"
-			],
-			[
-				"CONST_",
-				"CONST_ARES_LOG〔variable〕"
 			],
 			[
 				"CONST",
@@ -254,110 +514,34 @@
 			[
 				"ser",
 				"serialize"
-			],
-			[
-				"seari",
-				"serialize〔function〕"
-			],
-			[
-				"sStoredV",
-				"sStoredValue"
-			],
-			[
-				"sStor",
-				"sStoredValeur"
-			],
-			[
-				"rando",
-				"randomInt〔variable〕"
-			],
-			[
-				"consta",
-				"constants"
-			],
-			[
-				"cons",
-				"constants"
-			],
-			[
-				"CONST_ARES_",
-				"CONST_ARES_PATH"
-			],
-			[
-				"CONS",
-				"CONST_ARES_SEPARATOR"
-			],
-			[
-				"CO",
-				"CONST_ARES_PATH〔variable〕"
-			],
-			[
-				"seria",
-				"serial_grades"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "intelligencia/index.py",
+			"file": "Ares/constants.py",
 			"settings":
 			{
-				"buffer_size": 6090,
+				"buffer_size": 573,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "intelligencia/Robot.aee",
+			"file": "Ares/test.py",
 			"settings":
 			{
-				"buffer_size": 1371,
+				"buffer_size": 68,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "intelligencia/classRobot/__init__.py",
+			"file": "Ares/modules/Training/chargeModules.py",
 			"settings":
 			{
-				"buffer_size": 412,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "intelligencia/classRobot/composantUltrasonic.py",
-			"settings":
-			{
-				"buffer_size": 2057,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "intelligencia/classRobot/composantMotorDC.py",
-			"settings":
-			{
-				"buffer_size": 719,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "test4.py",
-			"settings":
-			{
-				"buffer_size": 2558,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "test6.py",
-			"settings":
-			{
-				"buffer_size": 251,
+				"buffer_size": 252,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -386,14 +570,10 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 203.0,
-		"last_filter": "Package Control: ins",
+		"height": 357.0,
+		"last_filter": "Package Control: ",
 		"selected_items":
 		[
-			[
-				"Package Control: ins",
-				"Package Control: Install Package"
-			],
 			[
 				"Package Control: ",
 				"Package Control: Install Package"
@@ -415,13 +595,16 @@
 				"Install Package Control"
 			]
 		],
-		"width": 540.0
+		"width": 623.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 182.0,
 		"history":
 		[
+			"1+1",
+			"qsd",
+			"ko"
 		]
 	},
 	"distraction_free":
@@ -435,14 +618,120 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/MLG LOUIS SWAGG/Documents/GitHub/Ares",
-		"/C/Users/MLG LOUIS SWAGG/Documents/GitHub/Ares/IA",
-		"/C/Users/MLG LOUIS SWAGG/Documents/GitHub/Ares/IA/Programme",
-		"/C/Users/MLG LOUIS SWAGG/Documents/GitHub/Ares/intelligencia"
+		"/D/Projects/Ares/Files/Project"
 	],
 	"file_history":
 	[
-		"/C/Users/MLG LOUIS SWAGG/Documents/GitHub/Ares/test5.py",
+		"/D/Projects/Ares/Files/Project/Ares/modules/Training/Burpees.aee",
+		"/D/Projects/Ares/Files/Project/Ares/modules/Training/Burpees/controllerBurpees.py",
+		"/D/Projects/Ares/Files/Project/Ares/controllers/controllerDB.py",
+		"/D/Projects/Ares/Files/Project/Ares/core/list/listFieldsDB.py",
+		"/D/Projects/Ares/Files/Project/Ares/test.py",
+		"/D/Projects/Ares/Files/Project/Ares/classes/classProgram.py",
+		"/D/Projects/Ares/Files/Project/Ares/classes/classIA.py",
+		"/D/Projects/Ares/Files/Project/Ares/controllers/controllerTraining.py",
+		"/D/Projects/Ares/Files/Project/systemcomptes/index.py",
+		"/D/Projects/Ares/Files/Project/Ares/init.py",
+		"/D/Projects/Ares/Files/Project/systemcomptes/constants.py",
+		"/D/Projects/Ares/Files/Project/Ares/controllerRobot/classTimer.py",
+		"/D/Projects/Ares/Files/Project/Ares/classes/classTimerExercice.py",
+		"/D/Projects/Ares/Files/Project/Ares/Training/Burpees/controllerBurpees.py",
+		"/D/Projects/Ares/Files/Project/Ares/classes/classTraining.py",
+		"/D/Projects/Ares/Files/Project/Ares/classTraining.py",
+		"/D/Projects/Ares/Files/Project/Ares/classProgram.py",
+		"/D/Projects/Ares/Files/Project/Ares/controllerRobot/controllerRobot.py",
+		"/D/Projects/Ares/Files/Project/Ares/controllerRobot/classCoup.py",
+		"/D/Projects/Ares/Files/Project/Ares/controllerRobot/classMoyenne.py",
+		"/D/Projects/Ares/Files/Project/Ares/controllerRobot/classExercice.py",
+		"/D/Projects/Ares/Files/Project/systemcomptes/controllers/controllerDB.py",
+		"/D/Projects/Ares/Files/Project/systemcomptes/test2.py",
+		"/D/Projects/Ares/Files/Project/systemcomptes/classes/classHash.py",
+		"/D/Projects/Ares/Files/Project/systemcomptes/classes/classDatabase.py",
+		"/D/Projects/Ares/Files/Project/systemcomptes/controllers/__init__.py",
+		"/D/Projects/Ares/Files/Project/test11.py",
+		"/D/Projects/Ares/Files/Project/systemcomptes/core/list/listFieldsDB.py",
+		"/D/Projects/Ares/Files/Project/systemcomptes/__init__.py",
+		"/D/Projects/Ares/Files/Project/systemcomptes/core/__init__.py",
+		"/D/Projects/Ares/Files/Project/systemcomptes/core/list/__init__.py",
+		"/D/Projects/Ares/Files/Project/systemcomptes/test1.py",
+		"/D/Projects/Ares/Files/Project/core/serialize.py",
+		"/D/Projects/Ares/Files/Project/systemcomptes/database/database.db",
+		"/D/Projects/Ares/Files/Project/systemcomptes/classes/__init__.py",
+		"/D/Projects/Ares/Files/Project/classes/classDatabase.py",
+		"/D/Projects/Ares/Files/Project/core/traderror.py",
+		"/D/Projects/Ares/Files/Project/log/errorsBackUp.aee",
+		"/D/Projects/Ares/Files/Project/core/list/listError.py",
+		"/D/Projects/Ares/Files/Project/classes/classHash.py",
+		"/D/Projects/Ares/Files/Project/classes/classLanguage.py",
+		"/D/Projects/Ares/Files/Project/constants.py",
+		"/D/Projects/Ares/Files/Project/classes/classError.py",
+		"/D/Projects/Ares/Files/Project/core/tradeclass.py",
+		"/D/Projects/Ares/Files/Project/log/errorLogs.aee",
+		"/D/Projects/Ares/Files/Project/IA/Programme/classTraining.py",
+		"/D/Projects/Ares/Files/Project/IA/Programme/classTimer.py",
+		"/D/Projects/Ares/Files/Project/IA/Programme/Training/Burpees/imageBurpees.py",
+		"/D/Projects/Ares/Files/Project/test8.py",
+		"/D/Projects/Ares/Files/Project/IA/Programme/classProgram.py",
+		"/D/Projects/Ares/Files/Project/IA/Programme/Training/Burpees.aee",
+		"/D/Projects/Ares/Files/Project/IA/Programme/init.py",
+		"/D/Projects/Ares/Files/Project/IA/Programme/classIA.py",
+		"/D/Projects/Ares/Files/Project/IA/Programme/Training/Burpees/controllerBurpees.py",
+		"/D/Projects/Ares/IA",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/Burpees.aee",
+		"/home/octopus/Bureau/Project/TestRecop/database.aee",
+		"/home/octopus/Bureau/Project/TestRecop/script.py",
+		"/home/octopus/Bureau/Project/test7.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/Burpees/imageBurpees.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/Burpees/controllerBurpees.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/TechnicalVelocity.aee",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/TechnicalPower.aee",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/ShadowBoxing.aee",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/Pao/controllerPao.py",
+		"/home/octopus/Bureau/Project/IA/Programme/classProgram.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/CordeSauter/controllerCordeSauter.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/chargeModules.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/Squat.aee",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/Pompes.aee",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/CordeSauter.aee",
+		"/home/octopus/Bureau/Project/test6.py",
+		"/home/octopus/Bureau/Project/test4.py",
+		"/home/octopus/Bureau/Project/intelligencia/Robot.aee",
+		"/home/octopus/Bureau/Project/intelligencia/classRobot/composantMotorDC.py",
+		"/home/octopus/Bureau/Project/intelligencia/classRobot/composantUltrasonic.py",
+		"/home/octopus/Bureau/Project/intelligencia/index.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/Pompes/controllerPompes.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/ShadowBoxing/controllerShadowBoxing.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/Sparring/controllerSparring.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/Squat/controllerSquat.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/TechnicalPower/controllerTechnicalPower.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/TechnicalVelocity/controllerTechnicalVelocity.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/Pao.aee",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/Sparring.aee",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/Test.aee",
+		"/home/octopus/Bureau/Project/IA/Programme/init.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/ShadowBoxing/__init__.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/Test/controllerTest.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/Sparring/__init__.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/Squat/__init__.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/TechnicalVelocity/__init__.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/TechnicalPower/__init__.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/Pompes/__init__.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/Pao/__init__.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/Burpees/__init__.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/CordeSauter/__init__.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/Test/__init__.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Training/__init__.py",
+		"/home/octopus/Bureau/Project/IA/Programme/Burpees.aee",
+		"/home/octopus/Bureau/Project/Aide.txt",
+		"/home/octopus/Bureau/Project/test/ShadowBoxing.aee",
+		"/home/octopus/Bureau/Project/IA/Programme/classIA.py",
+		"/home/octopus/Bureau/Project/IA/Programme/classTraining.py",
+		"/home/octopus/Bureau/Project/IA/Programme",
+		"/home/octopus/Bureau/Project/IA/init.py",
+		"/home/octopus/Bureau/Project/intelligencia/classRobot/__init__.py",
+		"/home/octopus/Bureau/Project/test5.py",
+		"/home/octopus/Bureau/Project/testingformasync/init.py",
+		"/home/octopus/.config/sublime-text-3/Packages/AdvancedNewFile/README.md",
 		"/D/Projects/Ares/Files/intelligencia/classRobot/classPower.py",
 		"/D/Projects/Ares/Files/intelligencia/classRobot/composantUltrasonic.py",
 		"/D/Projects/Ares/Files/intelligencia/classRobot/composantMotorDC.py",
@@ -460,53 +749,18 @@
 		"/D/Projects/Ares/Files/classes/classHash.py",
 		"/D/Projects/Ares/Files/core/list/listError.py",
 		"/D/Projects/Ares/Files/intelligencia/index.py",
-		"/D/Projects/Ares/Files/index.py",
-		"/C/Users/Octopus/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/Octopus/AppData/Roaming/Sublime Text 3/Packages/User/AdvancedNewFile.sublime-settings",
-		"/C/Users/Octopus/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
-		"/C/Users/Octopus/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/README.md",
-		"/D/Projects/Ares/Files/classes/classLanguage.py",
-		"/C/Users/Octopus/AppData/Roaming/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
-		"/C/Users/Octopus/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
-		"/home/redsky/Bureau/Ares/Files/core/test2.py",
-		"/home/redsky/Bureau/Ares/Files/core/list/listError.py",
-		"/home/redsky/Bureau/Ares/Files/classes/classError.py",
-		"/home/redsky/Bureau/Ares/Files/classes/classHash.py",
-		"/home/redsky/Bureau/Ares/Files/lang/langFR.py",
-		"/home/redsky/.config/sublime-text-3/Packages/User/AdvancedNewFile.sublime-settings",
-		"/home/redsky/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
-		"/home/redsky/Bureau/Ares/Files/lang/langES.py",
-		"/home/redsky/Bureau/Ares/Files/lang/langDefault.py",
-		"/home/redsky/Bureau/Ares/Files/lang/langES.aee",
-		"/home/redsky/Bureau/Ares/Files/core/list/__init__.py",
-		"/home/redsky/Bureau/Ares/Files/core/serialize.py",
-		"/home/redsky/Bureau/Ares/Files/core/traderror.py",
-		"/home/redsky/Bureau/Ares/Files/log/errorLogs.aee",
-		"/home/redsky/Bureau/Ares/Files/core/list/listClass.py",
-		"/home/redsky/Bureau/Ares/Files/log/errorsBackUp.aee",
-		"/home/redsky/Bureau/Ares/Files/core/list/traderror.py",
-		"/home/redsky/Bureau/Ares/Files/core/tradeclass.py",
-		"/home/redsky/Bureau/Ares/Files/classes/__init__.py",
-		"/home/redsky/.config/sublime-text-3/Packages/User/SublimeCodeIntel.sublime-settings",
-		"/home/redsky/Bureau/Ares/Files/include/library/ares/classAres.py",
-		"/home/redsky/Bureau/Ares/Files/include/__init__.py",
-		"/home/redsky/Bureau/Ares/Files/__init__.py",
-		"/home/redsky/Bureau/Ares/Files/include/library/__init__.py",
-		"/home/redsky/Bureau/Ares/Files/include/library/ares/__init__.py",
-		"/home/redsky/Bureau/Ares/Files/index.py",
-		"/home/redsky/Bureau/das.php",
-		"/home/redsky/kaka",
-		"/home/redsky/kaka.php"
+		"/D/Projects/Ares/Files/index.py"
 	],
 	"find":
 	{
-		"height": 41.0
+		"height": 61.0
 	},
 	"find_in_files":
 	{
 		"height": 169.0,
 		"where_history":
 		[
+			"D:\\Projects\\Ares\\Files\\Project\\systemcomptes\\database"
 		]
 	},
 	"find_state":
@@ -514,8 +768,34 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"GPIO_ECHO",
-			"GPIO_TRIGGER",
+			"ERROR QUERY DONT HAVE MATCHES",
+			"eval",
+			"classRobot",
+			"CONST_FILE_ROBOT",
+			"CONST_PATH",
+			"getFieldUser",
+			"'Users'",
+			"')\n",
+			"ERROR FIELD OR RETURN NOT IN TABLES COLUMNS",
+			"FROM",
+			"database.db",
+			"print",
+			"Error : MODULE NOT HAVE TYPE",
+			"KEY SETTINGS DONT EXIST IN PACKAGE",
+			"COMPONNENT DONT EXIST IN FILE",
+			"printExercice",
+			"print",
+			"Error : MODULE IN TRAINING NOT INSTALLED",
+			"self.Type",
+			", aParams",
+			"Training",
+			"print",
+			"Q-",
+			"[",
+			"]",
+			"[",
+			"sControllerType",
+			"23",
 			"Motor",
 			"ds"
 		],
@@ -525,8 +805,13 @@
 		"regex": false,
 		"replace_history":
 		[
-			"self.Echo",
-			"self.Trigg"
+			"Training",
+			"",
+			"self.Type",
+			";",
+			"<",
+			">",
+			"Training"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -537,24 +822,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "intelligencia/index.py",
+					"file": "Ares/constants.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6090,
+						"buffer_size": 573,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5957,
-								5957
+								177,
+								177
 							]
 						],
 						"settings":
@@ -579,21 +864,41 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
@@ -604,31 +909,11 @@
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -639,27 +924,12 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										4559,
-										4560
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"region.yellowish"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										4518,
-										4519
-									]
 								},
 								"unmatched":
 								{
@@ -667,26 +937,6 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
@@ -697,63 +947,82 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content"
 							],
-							"spell_check": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1758.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "intelligencia/Robot.aee",
+					"file": "Ares/test.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1371,
+						"buffer_size": 68,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1371,
-								1371
+								67,
+								67
 							]
 						],
 						"settings":
 						{
+							"_anf_new": "",
+							"auto_complete": false,
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -773,56 +1042,56 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -846,63 +1115,63 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content"
 							],
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -913,19 +1182,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "intelligencia/classRobot/__init__.py",
+					"file": "Ares/modules/Training/chargeModules.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 412,
+						"buffer_size": 252,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								321,
-								321
+								1,
+								1
 							]
 						],
 						"settings":
@@ -950,56 +1219,56 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -1023,56 +1292,56 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -1085,454 +1354,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "intelligencia/classRobot/composantUltrasonic.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2057,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1159,
-								1159
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										499,
-										500
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"region.greenish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										495,
-										496
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 469.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "intelligencia/classRobot/composantMotorDC.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 719,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								44,
-								44
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										486,
-										487
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"region.greenish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										480,
-										481
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "test4.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2558,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1786,
-								1786
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 882.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "test6.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 251,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								183,
-								183
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1540,7 +1362,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 22.0
+		"height": 36.0
 	},
 	"input":
 	{
@@ -1571,7 +1393,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 156.0
+		"height": 237.0
 	},
 	"output.find_results":
 	{
@@ -1581,11 +1403,11 @@
 	{
 		"height": 132.0
 	},
-	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
 	"project": "Ares.sublime-project",
 	"replace":
 	{
-		"height": 73.0
+		"height": 90.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1620,10 +1442,10 @@
 	{
 	},
 	"show_minimap": true,
-	"show_open_files": true,
+	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 153.0,
+	"side_bar_width": 386.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

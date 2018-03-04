@@ -1,0 +1,20 @@
+#CONSTANT
+ARES_SETTINGS_DATABASE_NAME = 'database.db'
+ARES_SETTINGS_DATABASE_PATH = 'database/'
+PARAM_SALT = 'ISLOVIVA159753'
+PARAM_CUSTOM_HASH_SALT = True
+
+CONST_FILE_ROBOT = "Robot.aee"
+CONST_PATH = "settings/"
+CONST_FILE_ROBOT = CONST_PATH + CONST_FILE_ROBOT
+
+CONST_PRINT = True
+CONST_TIME_SLEEP_CARDIO_MESURE = 10
+CONST_COEFF_CARDIO_MESURE = 60 / CONST_TIME_SLEEP_CARDIO_MESURE
+
+CONST_EXTENSION = '.aee'
+CONST_PATH_TRAINING = 'modules/Training/'
+CONST_TRAINING = "modules.Training"
+
+AlgorithmsInstalled = ['RegressionAlgorithm','RuffierDickson']
+TypeExercices = ['ExerciceCardioVascular','ExerciceMuscular']

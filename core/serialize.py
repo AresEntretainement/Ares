@@ -1,3 +1,8 @@
+
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+
 import pickle
 
 class Os:
@@ -13,10 +18,4 @@ def serialize(oObject = None):
 
 def deserialize(sString):
 	return pickle.loads(sString)
-
-d = Os()
-print d 
-a = serialize(d)
-b = deserialize(a)
-print b.name
 

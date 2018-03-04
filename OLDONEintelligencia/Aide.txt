@@ -1,0 +1,65 @@
+"""
+ON TRAVAILLE AVEC UNE PROGRAMMATION POO (PROGRAMATION ORIENTé OBJET)
+AVANTAGE:
+	Possibilité de modeliser en UML et diviser les differentes parties en composants unitaires
+	Forme plus intuitive pour des grands code sources
+	Evite les repetitions et possibilité de travailler en asynchrone
+
+COMMENT LE PROGRAMME FONCTIONNE?
+ - Pour remplir les taches qu'on a faire pour la partie modelisation on s'est divisé le programme en principales fonctionnalités:
+   - Profilage des signaux recus et mise en place de l'entrainement
+   - Commande des capteurs et reception de signaux 
+
+
+   	COMMANDE DES CAPTEURS ET RECEPTIONS DE SIGNAUX:
+
+   	'''Cette partie fonctionne avec divers objects'''
+   		- Object Robot Composé de plusieurs Classes d'objet qui representent les caracteristiques principales du robot ainsi que les differentes fonctions qu'il a:
+   			-> BUZZER : Pas utilisé pour la modelisation
+   			-> POWER : Pas utlisé pour la modelisation
+   			-> SIGNAL : Pas utilisé pour la modelisation
+   			-> SPARBAR : Pas utilisé pour la modelisation
+   			-> VELOCITY : Pas utilisé pour la modelisation
+
+   			EN PARALLELE L'OBJECT ROBOT EST COMPOSé DE DIFFERENTS COMPOSANTS EXTERIEURS QUI SONT MANIPULES PAR LES CLASSES:
+   			-> composant ULTRASON (Modules UltraSon SR-H204)
+   				Caracteristiques (Attributs):
+   					- Nombre de Ports
+   					- Partie de l'utilisation (Partie du Corps)
+   					- Nom des differents Ports : TRIGG, ECHO
+   					- PORT TRIGG 
+   					- PORT ECHO
+   				Fonctions (Methode asynchrone):
+   					MesureForce(Pause de Mesure(Temps qui sera repartie en 3 phases une pour l'initialisation du signal trigg, une autre pour le temps d'emission des ultrasons a travers trigg, une autre pour     							apres la reception et l'analyse des resultats echo ))
+   			-> composant MOTORDC (Utilisation d'un moteur pas a pas pour la modelisation en attente du vrai moteur de la sparbar)
+   				Caracteristiques (Attributs)
+   				   	- Nombre de Ports
+   					- Utilisation
+   					- Nom des differents Ports : PWM
+   					- PORT PWM
+   				Fonctions (Methode asynchrone):
+   					turnMotor(En vue de l'utilisation d'un servo moteur on considere que le moteur va juste effectuer des aller-retour, cette fonction sera remplacé plus tard lors de 			  l'obtention du vrai moteur)
+
+   		L'ensemble des caracteristiques decrites des composants sont dans un meme fichier modifiable appelé Robot.aee
+   		Ce fichier sauvegarde Le numero des ports permettant une plus grande flexibilité car l'ensemble des numeros de port sont pris a partir d'ici.
+
+   	Comme l'on a decrit au debut, ces differents objets sont independants et unitaire, c'est-a-dire qu'ils n'auront aucune action executés tout seuls.
+   	Donc pour la manipulation de l'objet on se servira d'un nouvel objet qui controllera cette classe et sera plus tard le moyen de communication entre l'objet robot independant et le reste du programme.
+   		Ce controlleur appelé CONTROLLEROBOT inclus dans le fichier index.py aura comme fonctions:
+
+   			- Lecture du fichier Robot.aee ainsi que la creation de attributs de classe (VARIABLES GLOBALES AVEC UNE PORTé SUR TOUT LE PROGRAMME) recensant le nom des ports ainsi que leur numero
+
+   			- Manipulation de l'objet robot et generation d'objets composants selon le fichier Robot.aee qui seront recensés dans un dictionnaire au que le nom du composant lui sera associé son object : {'NomDuComposant' : <Object Composant> }
+
+   			- Appel du controlleur d'une partie specifique du robot selon le type d'exercice a effectuer (Partie Pas encore developpé)
+
+   			- Affichage des differents composants installés dans la console
+
+   			- Avoir la configuration d'un composant
+
+   			- Utilisation d'une fonction de differents modules en asynchrone
+
+
+
+
+"""

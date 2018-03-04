@@ -1,26 +1,25 @@
-"""CLASS ERROR
+# CLASS ERROR
 
-[ERROR CLASS GERE L'ENSEMBLE DES CONFLITS]
-S'OCCUPE DE L'ENVOIE D'UN MESSAGE A L'UTILISATEUR
-OU AU DEVELOPPEUR EN CAS D'ERREUR EMERGENTE SELON
-SON STADE
-[ARES PROJECT]
-* @copyright		[ARES ENTRETAINEMENT]
-* @author			CHOUBIKI Ismael
-* @package 			AresTrain
-* @version 			$id: classes/classError.py
-*
-
-""" 
+# [ERROR CLASS GERE L'ENSEMBLE DES CONFLITS]
+# S'OCCUPE DE L'ENVOIE D'UN MESSAGE A L'UTILISATEUR
+# OU AU DEVELOPPEUR EN CAS D'ERREUR EMERGENTE SELON
+# SON STADE
+# [ARES PROJECT]
+# * @copyright		[ARES ENTRETAINEMENT]
+# * @author			CHOUBIKI Ismael
+# * @package 			AresTrain
+# * @version 			$id: classes/classError.py
 
 
-"""
-CONSTANTS
 
-"""
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+
+
 import sys
 import datetime
-
+import traceback
 
 
 
@@ -45,16 +44,16 @@ class Error:
 	bSkipError = False
 
 
-	def display(self,sMsg):
+	def display(self,errorType,sMsg, sType = ''):
 		if (PARAM_CONSOLE_MODE == True):
-			print "Error Display: " + sMsg
-			
+			msg = "\nError Display : {0}Error Message : {1}\nError Type : {2}".format(traceback.format_exc(), sMsg,[errorType.__name__, sType])
+			raise errorType(msg)
 		else:
 			pass
 			####?--
 		return 
 
-	def trigger(self, sMsg, sErrorType):
+	def trigger(self, sErrorType, sMsg, sFile = ''):
 		lib, exist = error_exist(sErrorType)
 		if (exist == False):
 			self.set(sMsg, sErrorType)
@@ -62,20 +61,23 @@ class Error:
 				raise Exception(sErrorType)
 			except Exception as inst:
 				x = inst.args
-				print 'ErrType : ', x
+				print('ErrType : ', x)
 		else:
 			if(lib == 'standard'):
 				self.set(sMsg, sErrorType)
-				raise Exception(sErrorType)
-			else:
+				self.log(sFile, sErrorType.__name__, sMsg)
+				self.display(sErrorType, sMsg)
+			elif (lib == 'ares_error'):
 				self.set(sMsg, sErrorType)
-				self.display(sMsg)
 				try:
-					raise Exception(sErrorType, get_error_msg(sErrorType))
+					self.log(sFile,sErrorType, sMsg)
+					self.display(TypeError, get_error_msg(sErrorType), sErrorType)
 				except Exception as inst:
 					x, y = inst.args
-					print 'ErrType : ', x
-					print 'ErrMsg  : ', y
+					print('ErrType : ', x)
+					print('ErrMsg  : ', y)
+			else:
+				raise Exception
 		return
 
 
@@ -110,30 +112,24 @@ class Error:
 			return False
 
 		if (PARAM_CONSOLE_MODE):
-
-			self.log(sFileName, sErrorType, sErrorMsg)
-			self.trigger(sErrorMsg,sErrorType)
+			self.trigger(sErrorType, sErrorMsg, sFileName)
 		else:
 			#?-- Template
 			pass
 	def log(self, sFile, sErrorType, sErrorMsg):
-
-		file = open(sFile , 'a')
-
-		aErrorLog =  {'errorType':sErrorType , 'errorMsg':sErrorMsg}
-		sErrorLog = serialize(aErrorLog)
-
-		file.write(sErrorLog)
-		file.close()
+		with open(sFile, 'a') as file:
+			aErrorLog =  {'errorType':str(sErrorType) , 'errorMsg':str(sErrorMsg)}
+			sErrorLog = serialize(aErrorLog)
+			file.write(sErrorLog)
+		return 
 
 	def backup(self):
-		
-		file = open(CONST_PATH_SUB_BACKUP_ERRORS, 'a')
-		date = str(datetime.datetime.now())
-		for e in self.aErrors.keys():
-			file.write(e + " : " + self.aErrors[e] + "\n" + date + "\n")
+		with open(CONST_PATH_SUB_BACKUP_ERRORS, 'a') as file:
+			date = str(datetime.datetime.now())
+			for e in self.aErrors.keys():
+				file.write(e + " : " + self.aErrors[e] + " -- " + date + "\n")
 
-		file.close()
+
 
 
 	def skip():

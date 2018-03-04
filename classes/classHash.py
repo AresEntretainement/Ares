@@ -1,53 +1,32 @@
-"""Ares Heades
-
-[Hash Class Codage and Debug]
-"""
+# Ares Heades
+#
+# [Hash Class Codage and Debug]
+# 
 # -*-coding:utf-8 -*-
-"""
-[ARES PROJECT]
-* @copyright		[ARES ENTRETAINEMENT]
-* @author			CHOUBIKI Ismael
-* @package 			AresTrain
-* @version 			$id: classes/classHash.py
-*
-*
-"""
+#
+# [ARES PROJECT]
+# * @copyright		[ARES ENTRETAINEMENT]
+# * @author			CHOUBIKI Ismael
+# * @package 			AresTrain
+# * @version 			$id: classes/classHash.py
+
+
+
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+
+
 import hashlib
 import pickle
-
-
-"""
-	IMPORTATION
-"""
-
 import sys
+
 from random import randint
-
-
-"""
-CONSTANTS
-
-"""
-
-sys.path[:0] = ['../']
 
 
 from constants import *
 
 
-
-def md5(sHash):
-	return hashlib.md5(sHash).hexdigest()
-def sha1(sHash):
-	return hashlib.sha1(sHash).hexdigest()
-def sha224(sHash):
-	return hashlib.sha224(sHash).hexdigest()
-def sha256(sHash):
-	return hashlib.sha256(sHash).hexdigest()
-def sha384(sHash):
-	return hashlib.sha384(sHash).hexdigest()
-def sha512(sHash):
-	return hashlib.sha512(sHash).hexdigest()
 
 
 """CLasse pour creation de codages propres a Ares 
@@ -66,11 +45,23 @@ personalises minimisant les chance de brutal force
 
 class Hash:
 
-	
+	def md5(self,sHash):
+		return hashlib.md5(str.encode(sHash)).hexdigest()
+	def sha1(self,sHash):
+		return hashlib.sha1(str.encode(sHash)).hexdigest()
+	def sha224(self,sHash):
+		return hashlib.sha224(str.encode(sHash)).hexdigest()
+	def sha256(self,sHash):
+		return hashlib.sha256(str.encode(sHash)).hexdigest()
+	def sha384(self,sHash):
+		return hashlib.sha384(str.encode(sHash)).hexdigest()
+	def sha512(self,sHash):
+		return hashlib.sha512(str.encode(sHash)).hexdigest()
+
 	def setHash(self,sPassword, sSalt = ''):
 		if (sSalt == ''):
 			sSalt = PARAM_SALT
-		return sha256(md5(sPassword) + md5(sSalt))
+		return self.sha256(md5(sPassword) + self.md5(sSalt))
 
 	def setRandomHash(self, sPassword):
 		if (PARAM_CUSTOM_HASH_SALT):
@@ -80,8 +71,8 @@ class Hash:
 		for i in range(0,10):
 			randomInt = randint(0, len(substr)-1)
 			sSeed += substr[randomInt]
-		print sSeed
-		return sha256(sSeed + md5(sPassword) + sSeed) + sSeed
+		print(sSeed)
+		return self.sha256(sSeed + self.md5(sPassword) + sSeed) + sSeed
 	def setCodecVersion(self, sParam, sFirstParam, sVersion):
 		sPassword = sParam
 		if (PARAM_CUSTOM_HASH_SALT):
@@ -91,7 +82,7 @@ class Hash:
 		for i in range(0,10):
 			randomInt = randint(0, len(substr)-1)
 			sSeed += substr[randomInt]
-		return sha256(sha1(sFirstParam) + sha1(sPassword)) + sSeed + sVersion
+		return self.sha256(self.sha1(sFirstParam) + self.sha1(sPassword)) + sSeed + sVersion
 
 	def getCodecVersion(self, sParam, sFirstParam, sStoredValue, sVersion):
 		sPassword = sParam
@@ -102,7 +93,7 @@ class Hash:
 			return False
 		sStoredSeed = sStoredValue[64 : 74]
 
-		if ((sha256(sha1(sFirstParam) + sha1(sPassword)) + sStoredSeed + sVersion) == sStoredValue):
+		if ((self.sha256(self.sha1(sFirstParam) + self.sha1(sPassword)) + sStoredSeed + sVersion) == sStoredValue):
 			return True
 		else:
 			return False
@@ -113,8 +104,7 @@ class Hash:
 		if (len(sStoredValue) < 64):
 			return False
 		sStoredSeed = sStoredValue[64 : 74]
-		if ((sha256(sStoredSeed + md5(sPassword) + sStoredSeed) + sStoredSeed) == sStoredValue):
+		if ((self.sha256(sStoredSeed + self.md5(sPassword) + sStoredSeed) + sStoredSeed) == sStoredValue):
 			return True
 		else:
-			
 			return False

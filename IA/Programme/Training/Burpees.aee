@@ -1,0 +1,12 @@
+Objects = /Proprieties,DefaultValues,Image,Description,Default,LibPause,LibTimeRound,LibPerformance,LibRounds,Fields=Questions;Buttons/
+<Proprieties>Prefix = Burpees;Title = Burpees;Type = ExerciceCardioVascular,ExerciceMuscular;Evaluation = True;Controller = controllerBurpees.py<EndProprieties>
+<DefaultValues>DefaultPause = 120;DefaultTimeRound = 30;DefaultRounds = 1<EndDefaultValues>
+<Default>DefaultPauseLib = LibPause;DefaultTimeRoundLib = LibTimeRound;DefaultRoundsLib = LibRounds<EndDefault>
+<Buttons>Return = FormReturn;Stop = WidgetExit<EndButtons>
+<Questions>PauseField = max/120,Default/DefaultPause;TimeRoundField = max/360,Default/DefaultTimeRound;RoundNumberField = max/7,Default/DefaultRoundNumber<EndQuestions>
+<LibPause>A = 10;B = 5;C = 2<EndLibPause>
+<LibTimeRound>A = 10;B = 4;C = 2<EndLibTimeRound>
+<LibRounds>A = 10;B = 5; C = 2<EndLibRounds>
+<LibPerformance>PerformanceLib = performanceLibBurpees<EndLibPerformance>
+<Description>Description = Pour effectuer un Burpees il faut partir d\'un saut debout puis descendre au sol et faire une pompe ainsi de suite pendant la duree impartie<EndDescription>
+<Image>VarImage = Image;Image = imageBurpees.py<EndImage>

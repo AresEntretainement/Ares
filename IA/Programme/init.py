@@ -1,6 +1,8 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 """
 Partie du programme qui Enchaine le programme d'entrainement
-d'après le niveau obtenu lors de l'evaluation en selectionnant donc
+d'apres le niveau obtenu lors de l'evaluation en selectionnant donc
 ses parties correspondantes pour modeliser des commandes avec les 
 differents capteurs et signaux.
 Controller Training:
@@ -10,66 +12,115 @@ Controller Training:
  - Enregistrement d'informations liées a l'entrainement
  - Fonctionnement parellele avec le controller Robot
 """
-#Constantes Parametriques:
-CONST_PATH_TRAININGS = './Training/'
+"""
+Classe Capable de lire l'ensemble des programmes installées
+Categorie de Programmes
+: ExerciceMuscular
+: ExerciceCardioVascular
+: ExerciceWithStrike
+: RobotTrainSparbar
+: RobotTrain
+: ExerciceStart (Echauffement)
 
-#BASE DE DONNES A REMPLACER:
+#Section temporaire pour la modelisation (EVALUATION PROTYPE)
+-------------------------------------------
+FIELDS : Objects = /Proprieties,DefaultValues,Fields=Empty/
+Proprieties : PREFIX ; TITLE ; TYPE ; EVALUATION ; CONTROLLER
+DefaultValues : DefaultPause ; DefaultTimeRound ; DefaultRounds
 
-#Type d'entrainement installé
-ProgramList = ['ExerciceWithStrike','RobotTrainSparbar','RobotTrain','Exercice','Main']
 
-#Niveaux Installes 
-Levels = ['A','B','C']
+
+"""
+
 
 #***********FIN BASE DE DONNEES********
 """
 DURING DEVELOPPEMENT
 """
 us = {'User': 'Sad', 'Level':'A'}
-
+#EvaluationTraining = { 1 : 'ShadowBoxing', 2 : 'CordeSauter', 3 : 'Pompes' , 4 : 'Squat' , 5 : 'Burpees', 6 : 'TechnicalPower' , 7 : 'TechnicalVelocity' , 8 : 'Pao' , 9 : 'Sparring'}
+EvaluationTraining = {1 : 'Burpees', 2 : 'Burpees'}
 #Implementation des modules et librairies Python
 import re
 import asyncio
 import os
-
+import time
 #Implementation des differents composants
 
-import classProgram as Program
 import classIA as IA
-import classTraining as Training
+from classTraining import Train
 
 class ControllerTraining:
     ProgramsList = {}
-    def __init__(self,Training,dUser,aParams = []):
+    def __init__(self,dUser,aParams = [],Training = EvaluationTraining):
         self.User = dUser
-        self.Trains = self.loadTrains()
-        if (Training == "ExerciceWithStrike"):
-            self.controllerExerciceWithStrike(aParams)
-        elif (Training == "RobotTrainSparbar"):
-            self.controllerRobotTrainSparbar(aParams)
-        elif (Training == "RobotTrain"):
-            self.controllerRobotTrain(aParams)
-        elif (Training == "Main"):
-            self.controllerMain(aParams)
-        elif (Training == "Exercic"):
-            self.controllerExercice(aParams)
+        if (Training == EvaluationTraining):
+            self.EvaluationMode = True
+        self.Training = Train(Training,self.EvaluationMode)
+
+    def run(self):
+        Results = {}
+        for index in range(1,len(self.Training.TrainingParties)+1):
+            Results[index] = {}
+        for index in range(1,len(self.Training.TrainingParties)+1):
+            self.Training.TrainingParties[index].Controller.run()
+            Perfs = {}
+            Perfs = self.Training.TrainingParties[index].Controller.getPerformances()
+            Results = {}
+            for exercice in Perfs.keys():
+                if(Perfs[exercice]['Type'] not in IA.AlgorithmsInstalled):
+                    #Remplace for Error Algorithm of Complement Not installed
+                    print('Error : ALGORITH OF COMPLEMENT NOT INSTALLED')
+                else:
+                    Intelligencia = IA.IA(Perfs, Perfs[exercice]['Type'])
+                    Query = "Results['" + exercice + "'] = Intelligencia." + Perfs[exercice]['Type']  + "()"
+                    exec(Query)
+                    time.sleep(2)
+            print(Results)
+
+
+"""     
+def limp():
+    os.system('clear')
+
+    
+def main():
+    print(""#               |        Evaluation Training        |
+
+            #Enter To Start....
+
+        ")
+    input('## <-|')
+    limp()
+    Controller = ControllerTraining(us)
+
+main()
+
+"""
+"""
+def Perfo(Perfs):
+    Results = {}
+    for exercice in Perfs.keys():
+        if(Perfs[exercice]['Type'] not in IA.AlgorithmsInstalled):
+            #Remplace for Error Algorithm of Complement Not installed
+            print('Error : ALGORITH OF COMPLEMENT NOT INSTALLED')
         else:
-            #Remplace par module Error Not Train
-            print("Error")
-    def loadTrains(self):
-        Files = os.listdir(CONST_PATH_TRAININGS)
-        for file in Files:
-            self.ProgramsList[(file.strip('.aee'))] = Program.Program((CONST_PATH_TRAININGS + file) ,self.User['Level'],ProgramList,Levels)
-        
-
-    def controllerMain(self, aParams): return
-    def controllerRobotTrain(self, aParams): return
-    def controllerRobotTrainSparbar(self, aParams): return
-    def controllerExerciceWithStrike(self, aParams): return
-    def controllerExercice(self, aParams): return 
+            print(Perfs)
+            Intelligencia = IA.IA(Perfs, Perfs[exercice]['Type'])
+            Query = "Results['" + exercice + "'] = Intelligencia." + Perfs[exercice]['Type']  + "()"
+            print(Query)
+            exec(Query)
+            print(Results[exercice])
+            time.sleep(2)
 
 
 
+Testing = {'ExerciceCardioVascular': {'Type': 'RuffierDickson', 'Lib': 'Empty', 'Perf': {'Fc0': 60, 'Fc1': 84, 'Fc2': 72}}, 'ExerciceMuscular': {'Type': 'RegressionAlgorithm', 'Lib': 'performanceLibBurpees', 'Perf': '13'}}
 
-var = ControllerTraining('Main', us)
-print(var.ProgramsList['ShadowBoxing'].UserDefault)
+Perfo(Testing)
+"""
+
+
+Contoller = ControllerTraining(us)
+Contoller.run()
+

@@ -1,25 +1,24 @@
-"""CLASS LANGUAGE
-LA CLASSE LANGUAGE CONTRIBUE A LA CREATION
-DE L'OBJET LANGUAGE INVOQUE PAR LA METHODE 
-getPhrase(sPhrase)
-le but est de retourner une traduction convenable
-aux parametres defini par l'utilisateur dans la base 
-de donnes ou ceux qui sont par defaut
+###CLASS LANGUAGE
+# LA CLASSE LANGUAGE CONTRIBUE A LA CREATION
+# DE L'OBJET LANGUAGE INVOQUE PAR LA METHODE 
+# getPhrase(sPhrase)
+# le but est de retourner une traduction convenable
+# aux parametres defini par l'utilisateur dans la base 
+# de donnes ou ceux qui sont par defaut
 
-"""
-
-
-"""
- * @copyright		[ARES ENTRETAINEMENT]
- * @author			CHOUBIKI Ismael	
- * @package 		AresTrain
- * @version 		$Id: classes/classLanguage.py
-"""
+# * @copyright		[ARES ENTRETAINEMENT]
+# * @author			CHOUBIKI Ismael	
+# * @package 		AresTrain
+# * @version 		$Id: classes/classLanguage.py
 
 
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
 
 import sys
 import os
+import importlib
 from classes.classError import Error
 from classes.classHash import Hash
 
@@ -46,17 +45,15 @@ class Language:
 		#Etape recuperation de l'ensemble des languages
 		langFiles = self.InstalledLanguages()
 		if ('00' in langFiles):
-			
-			file = __import__("lang00")
+			file = importlib.import_module("lang00")
 			codage = file.codage
 			langFiles.remove('00')
-			files = ['lang'+x for x in langFiles]
+			files = ['lang' + x for x in langFiles]
 			Codages = {}
 			for i in files:
-				file = __import__(i)
+				file = importlib.import_module(i)
 				Codages[i[4:6]] = file.codage
 				del(file)
-
 			sVersion = codage[73:]
 			for i in Codages.keys():
 				code = Hash()
@@ -71,7 +68,7 @@ class Language:
 				if( self.IsPhrase(sPhrase)):
 					if (sLang != ''):
 						if(sLang in self.aLangsInstalled):
-							file = __import__('lang' + sLang)
+							file = importlib.import_module('lang' + sLang)
 							if (sPhrase in file.Dictionnary):
 								self.sPhrase = file.Dictionnary[sPhrase]
 							else:
@@ -84,7 +81,7 @@ class Language:
 						self.sLangDefault = PARAM_LANG_DEFAULT
 						self.sLangUsed = PARAM_LANG_DEFAULT
 						if(sPhrase in self.getLangBy(self.sLangUsed)):
-							file = __import__('lang' + self.sLangUsed)
+							file = importlib.import_module('lang' + self.sLangUsed)
 							self.sPhrase = file.Dictionnary[sPhrase]
 						else:
 							error = Error()
@@ -102,23 +99,28 @@ class Language:
 
 
 	def InstalledLanguages(self):
-
 		path = os.getcwd().replace(CONST_ARES_CLASSES,'') + CONST_ARES_SEPARATOR + CONST_ARES_LANG + CONST_ARES_SEPARATOR
 		sys.path.append(path)
-		langFiles = list(set([x[4:6] for x in os.listdir(path)]))
+		listFiles = os.listdir(path)
+		if ('__pycache__' in listFiles):
+			listFiles.remove('__pycache__')
+		langFiles = list(set([x[4:6] for x in listFiles]))
+
 
 		return langFiles
 	def IsPhrase(self, sPhrase):
-		from lang00 import DictionnaryItems
+		from lang.lang00 import DictionnaryItems
 		if(sPhrase in DictionnaryItems):
 			return True
-
 		else:
 			return False
+
 	def getLangBy(self, sVar):
 		if (sVar in self.aLangsInstalled):
-			file = __import__('lang'+sVar)
+			file = importlib.import_module('lang'+sVar)
 			return file.Dictionnary 
 		else:
 			error = Error()
 			error.errorHandler('ErrorInstallLang', 'Language Not Installed')
+	def get(self):
+		return self.sPhrase

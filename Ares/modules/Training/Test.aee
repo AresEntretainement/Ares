@@ -1,0 +1,7 @@
+Objects = /Proprieties,DefaultValues,Fields=Questions;Buttons/
+
+<Proprieties>Prefix = Test;Title = Test;Type = ExerciceCardioVascular;Evaluation = False;Controller = controllerTest.py<EndProprieties>
+<DefaultValues>DefaultPause = 120;DefaultTimeRound = 30;DefaultRounds = 1<EndDefaultValues>
+
+<Buttons>Return = FormReturn;Stop = WidgetExit<EndButtons>
+<Questions>PauseField = max/120,Default/DefaultPause;TimeRoundField = max/360,Default/DefaultTimeRound;RoundNumberField = max/7,Default/DefaultRoundNumber<EndQuestions>
