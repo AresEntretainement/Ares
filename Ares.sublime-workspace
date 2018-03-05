@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"sFil",
+				"sFileName"
+			],
+			[
+				"sFi",
+				"sFileName〔argument〕"
+			],
+			[
+				"CON",
+				"CONST_PATH_SUB_ERRORLOG〔module〕"
+			],
+			[
+				"PARA",
+				"PARAM_CONSOLE_MODE〔variable〕"
+			],
+			[
+				"CONST",
+				"CONST_PATH_SUB_BACKUP_ERRORS"
+			],
+			[
+				"CO",
+				"CONST_PATH_SUB_ERRORLOG"
+			],
+			[
 				"Exe",
 				"ExerciceWithStrike"
 			],
@@ -38,10 +62,6 @@
 			[
 				"Algorith",
 				"AlgorithmsInstalled"
-			],
-			[
-				"CON",
-				"CONST_TRAINING〔module〕"
 			],
 			[
 				"COntroll",
@@ -150,10 +170,6 @@
 			[
 				"Pause",
 				"PauseInput"
-			],
-			[
-				"CO",
-				"CONST_PRINT〔variable〕"
 			],
 			[
 				"Defaul",
@@ -498,58 +514,16 @@
 			[
 				"sEr",
 				"sErrorMsg"
-			],
-			[
-				"sErr",
-				"sErrorType"
-			],
-			[
-				"Error",
-				"ErrorDictionary"
-			],
-			[
-				"CONST",
-				"CONST_ARES_SEPARATOR〔variable〕"
-			],
-			[
-				"ser",
-				"serialize"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "Ares/constants.py",
+			"file": "classes/classError.py",
 			"settings":
 			{
-<<<<<<< HEAD
-				"buffer_size": 573,
-=======
-				"buffer_size": 2089,
->>>>>>> 9eb6ff285d28c744655e19222922a2fbedadf60e
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Ares/test.py",
-			"settings":
-			{
-<<<<<<< HEAD
-				"buffer_size": 68,
-=======
-				"buffer_size": 1940,
->>>>>>> 9eb6ff285d28c744655e19222922a2fbedadf60e
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Ares/modules/Training/chargeModules.py",
-			"settings":
-			{
-				"buffer_size": 252,
+				"buffer_size": 3136,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -626,22 +600,22 @@
 	},
 	"expanded_folders":
 	[
-<<<<<<< HEAD
-		"/D/Projects/Ares/Files/Project"
-=======
-		"/C/Users/MLG LOUIS SWAGG/Documents/GitHub/Ares",
-		"/C/Users/MLG LOUIS SWAGG/Documents/GitHub/Ares/IA",
-		"/C/Users/MLG LOUIS SWAGG/Documents/GitHub/Ares/intelligencia",
-		"/C/Users/MLG LOUIS SWAGG/Documents/GitHub/Ares/intelligencia/classRobot"
->>>>>>> 9eb6ff285d28c744655e19222922a2fbedadf60e
+		"/D/Projects/Ares/Files/Project",
+		"/D/Projects/Ares/Files/Project/Ares"
 	],
 	"file_history":
 	[
+		"/D/Projects/Ares/Files/Project/log/errorsBackUp.aee",
+		"/D/Projects/Ares/Files/Project/log/errorLogs.aee",
+		"/D/Projects/Ares/Files/Project/PourLouis.py",
+		"/D/Projects/Ares/Files/Project/Ares/constants.py",
+		"/D/Projects/Ares/Files/Project/constants.py",
+		"/D/Projects/Ares/Files/Project/Ares/test.py",
+		"/D/Projects/Ares/Files/Project/Ares/modules/Training/chargeModules.py",
 		"/D/Projects/Ares/Files/Project/Ares/modules/Training/Burpees.aee",
 		"/D/Projects/Ares/Files/Project/Ares/modules/Training/Burpees/controllerBurpees.py",
 		"/D/Projects/Ares/Files/Project/Ares/controllers/controllerDB.py",
 		"/D/Projects/Ares/Files/Project/Ares/core/list/listFieldsDB.py",
-		"/D/Projects/Ares/Files/Project/Ares/test.py",
 		"/D/Projects/Ares/Files/Project/Ares/classes/classProgram.py",
 		"/D/Projects/Ares/Files/Project/Ares/classes/classIA.py",
 		"/D/Projects/Ares/Files/Project/Ares/controllers/controllerTraining.py",
@@ -674,14 +648,11 @@
 		"/D/Projects/Ares/Files/Project/systemcomptes/classes/__init__.py",
 		"/D/Projects/Ares/Files/Project/classes/classDatabase.py",
 		"/D/Projects/Ares/Files/Project/core/traderror.py",
-		"/D/Projects/Ares/Files/Project/log/errorsBackUp.aee",
 		"/D/Projects/Ares/Files/Project/core/list/listError.py",
 		"/D/Projects/Ares/Files/Project/classes/classHash.py",
 		"/D/Projects/Ares/Files/Project/classes/classLanguage.py",
-		"/D/Projects/Ares/Files/Project/constants.py",
 		"/D/Projects/Ares/Files/Project/classes/classError.py",
 		"/D/Projects/Ares/Files/Project/core/tradeclass.py",
-		"/D/Projects/Ares/Files/Project/log/errorLogs.aee",
 		"/D/Projects/Ares/Files/Project/IA/Programme/classTraining.py",
 		"/D/Projects/Ares/Files/Project/IA/Programme/classTimer.py",
 		"/D/Projects/Ares/Files/Project/IA/Programme/Training/Burpees/imageBurpees.py",
@@ -761,18 +732,11 @@
 		"/D/Projects/Ares/Files/constants.py",
 		"/D/Projects/Ares/Files/classes/classAres.py",
 		"/D/Projects/Ares/Files/lang/lang00.py",
-		"/D/Projects/Ares/Files/classes/classHash.py",
-		"/D/Projects/Ares/Files/core/list/listError.py",
-		"/D/Projects/Ares/Files/intelligencia/index.py",
-		"/D/Projects/Ares/Files/index.py"
+		"/D/Projects/Ares/Files/classes/classHash.py"
 	],
 	"find":
 	{
-<<<<<<< HEAD
 		"height": 61.0
-=======
-		"height": 23.0
->>>>>>> 9eb6ff285d28c744655e19222922a2fbedadf60e
 	},
 	"find_in_files":
 	{
@@ -787,6 +751,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"skip",
 			"ERROR QUERY DONT HAVE MATCHES",
 			"eval",
 			"classRobot",
@@ -841,28 +806,24 @@
 	"groups":
 	[
 		{
-<<<<<<< HEAD
 			"selected": 0,
-=======
-			"selected": 4,
->>>>>>> 9eb6ff285d28c744655e19222922a2fbedadf60e
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Ares/constants.py",
+					"file": "classes/classError.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 573,
+						"buffer_size": 3136,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								177,
-								177
+								848,
+								848
 							]
 						],
 						"settings":
@@ -892,16 +853,6 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -912,47 +863,72 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"bracket_highlighter.locations":
 							{
 								"close":
 								{
+									"1":
+									[
+										848,
+										849
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										756,
+										757
+									]
 								},
 								"unmatched":
 								{
@@ -960,36 +936,11 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -1000,116 +951,21 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Ares/test.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 68,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								67,
-								67
-							]
-						],
-						"settings":
-						{
-							"_anf_new": "",
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
@@ -1119,490 +975,31 @@
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
+								"bh_unmatched_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Ares/modules/Training/chargeModules.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 252,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1,
-								1
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-<<<<<<< HEAD
-=======
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_double_quote_content"
 							],
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "intelligencia/classRobot/composantUltrasonic.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2089,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										499,
-										500
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"region.greenish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										495,
-										496
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
->>>>>>> 9eb6ff285d28c744655e19222922a2fbedadf60e
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-<<<<<<< HEAD
-=======
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "intelligencia/classRobot/composantMotorDC.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1940,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1844,
-								1844
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
->>>>>>> 9eb6ff285d28c744655e19222922a2fbedadf60e
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-<<<<<<< HEAD
-=======
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 88.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "test4.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2558,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1786,
-								1786
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
 							"syntax": "Packages/Python/Python.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 882.0,
+						"translation.y": 817.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "test6.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 251,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								183,
-								183
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
->>>>>>> 9eb6ff285d28c744655e19222922a2fbedadf60e
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1655,11 +1052,7 @@
 	"project": "Ares.sublime-project",
 	"replace":
 	{
-<<<<<<< HEAD
 		"height": 90.0
-=======
-		"height": 42.0
->>>>>>> 9eb6ff285d28c744655e19222922a2fbedadf60e
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1697,11 +1090,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-<<<<<<< HEAD
 	"side_bar_width": 386.0,
-=======
-	"side_bar_width": 121.0,
->>>>>>> 9eb6ff285d28c744655e19222922a2fbedadf60e
 	"status_bar_visible": true,
 	"template_settings":
 	{
